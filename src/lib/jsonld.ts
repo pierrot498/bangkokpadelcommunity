@@ -19,8 +19,8 @@ export function sportsClubLd() {
     alternateName: "BPC",
     description: "The #1 padel community in Bangkok, Thailand.",
     url: SITE_URL,
-    logo: `${SITE_URL}/bg.jpg`,
-    image: `${SITE_URL}/bg.jpg`,
+    logo: `${SITE_URL}/icon.png`,
+    image: `${SITE_URL}/og-image.jpg`,
     sport: "Padel",
     areaServed: {
       "@type": "City",
@@ -46,7 +46,7 @@ export function organizationLd() {
     "@id": `${SITE_URL}/#organization`,
     name: SITE_NAME,
     url: SITE_URL,
-    logo: `${SITE_URL}/bg.jpg`,
+    logo: `${SITE_URL}/icon.png`,
     sameAs: SAME_AS,
   };
 }
@@ -82,7 +82,7 @@ export function webPageLd(
     about: { "@id": `${SITE_URL}/#sportsclub` },
     description,
     inLanguage: localeHtmlLang(locale),
-    primaryImageOfPage: { "@type": "ImageObject", url: `${SITE_URL}/bg.jpg` },
+    primaryImageOfPage: { "@type": "ImageObject", url: `${SITE_URL}/og-image.jpg` },
   };
 }
 
@@ -118,7 +118,7 @@ export function blogPostingLd(args: {
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
     headline: args.title,
     description: args.description,
-    image: args.image ?? `${SITE_URL}/bg.jpg`,
+    image: args.image ?? `${SITE_URL}/og-image.jpg`,
     datePublished: args.datePublished,
     dateModified: args.datePublished,
     inLanguage: localeHtmlLang(args.locale),
