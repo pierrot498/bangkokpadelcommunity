@@ -4,7 +4,21 @@ import { useEffect, useState } from "react";
 
 const STORAGE_KEY = "bpc-fb-popup-seen-v1";
 
-export default function FacebookPopup({ href }: { href: string }) {
+type Props = {
+  href: string;
+  title: string;
+  body: string;
+  primary: string;
+  secondary: string;
+};
+
+export default function FacebookPopup({
+  href,
+  title,
+  body,
+  primary,
+  secondary,
+}: Props) {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
@@ -83,12 +97,9 @@ export default function FacebookPopup({ href }: { href: string }) {
           id="fb-popup-title"
           className="mt-5 text-2xl font-bold leading-tight text-white"
         >
-          Join the Bangkok Padel Community
+          {title}
         </h2>
-        <p className="mt-3 text-sm text-white/70">
-          Get matched with players, discover courts and stay up to date on
-          tournaments and events — directly in our Facebook group.
-        </p>
+        <p className="mt-3 text-sm text-white/70">{body}</p>
 
         <a
           href={href}
@@ -97,7 +108,7 @@ export default function FacebookPopup({ href }: { href: string }) {
           onClick={close}
           className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-[var(--accent)] px-5 py-3.5 text-base font-semibold text-black transition hover:bg-[var(--accent-soft)]"
         >
-          Open the Facebook group
+          {primary}
           <svg
             viewBox="0 0 24 24"
             className="h-5 w-5"
@@ -117,7 +128,7 @@ export default function FacebookPopup({ href }: { href: string }) {
           onClick={close}
           className="mt-3 inline-block w-full rounded-2xl px-5 py-2.5 text-sm text-white/55 transition hover:text-white"
         >
-          Maybe later
+          {secondary}
         </button>
       </div>
     </div>
