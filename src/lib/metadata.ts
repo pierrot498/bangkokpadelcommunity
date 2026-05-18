@@ -44,9 +44,9 @@ export function pageMetadata(args: PageMetaArgs): Metadata {
   const canonical = locale === "en" ? enUrl : thUrl;
 
   const img = args.image ?? {
-    url: "/bg.jpg",
-    width: 1672,
-    height: 941,
+    url: "/og-image.jpg",
+    width: 1254,
+    height: 1254,
     alt: SITE_NAME,
   };
 
@@ -105,7 +105,6 @@ export function pageMetadata(args: PageMetaArgs): Metadata {
         "max-video-preview": -1,
       },
     },
-    icons: { icon: "/favicon.ico", apple: "/favicon.ico" },
     manifest: "/manifest.webmanifest",
     formatDetection: { email: false, address: false, telephone: false },
   };
