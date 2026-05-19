@@ -5,11 +5,13 @@ type Dict = {
     home: { title: string; description: string };
     blog: { title: string; description: string };
     coaching: { title: string; description: string };
+    courts: { title: string; description: string };
   };
   nav: {
     home: string;
     blog: string;
     coaching: string;
+    courts: string;
     switchLanguage: string;
   };
   home: {
@@ -46,6 +48,25 @@ type Dict = {
     cta: string;
     ctaSub: string;
   };
+  courts: {
+    eyebrow: string;
+    h1: string;
+    lead: string;
+    methodologyTitle: string;
+    methodology: string;
+    transit: string;
+    courts: string;
+    price: string;
+    booking: string;
+    visitWebsite: string;
+    ctaTitle: string;
+    ctaBody: string;
+    ctaButton: string;
+    relatedLead: string;
+    relatedPlay: string;
+    relatedClubs: string;
+    relatedCoaching: string;
+  };
 };
 
 const en: Dict = {
@@ -65,11 +86,17 @@ const en: Dict = {
       description:
         "Looking for a padel coach in Bangkok? Ask the Bangkok Padel Community on Facebook and the community will recommend coaches at every level.",
     },
+    courts: {
+      title: "Padel Courts in Bangkok — Ranked (2026)",
+      description:
+        "The best padel courts and clubs in Bangkok, ranked by the Bangkok Padel Community. Prices, booking apps, BTS access and what each venue is known for.",
+    },
   },
   nav: {
     home: "Home",
     blog: "Blog",
     coaching: "Coaching",
+    courts: "Courts",
     switchLanguage: "Switch language",
   },
   home: {
@@ -109,6 +136,27 @@ const en: Dict = {
     cta: "Ask for a coach in the Facebook group",
     ctaSub: "Free, public, and the fastest way to find a coach in Bangkok",
   },
+  courts: {
+    eyebrow: "Padel Court Rankings",
+    h1: "Padel Courts in Bangkok — Ranked (2026)",
+    lead: "The best places to play padel in Bangkok, ranked by the community. Prices, booking apps and BTS access at a glance.",
+    methodologyTitle: "How this ranking is built",
+    methodology:
+      "Rankings reflect recurring recommendations from members of the Bangkok Padel Community Facebook group, balanced against court count, booking reliability, coaching depth, social programming (Americanos / mixers) and BTS / MRT accessibility. We update the list when new clubs open or pricing changes. Prices change — always confirm with the club before booking.",
+    transit: "Transit",
+    courts: "Courts",
+    price: "Price",
+    booking: "Booking",
+    visitWebsite: "Visit website",
+    ctaTitle: "Not sure which court to pick?",
+    ctaBody:
+      "Post your area, level and weekly schedule in the Facebook group — the community will point you to the right club in a day.",
+    ctaButton: "Ask the Bangkok Padel Community",
+    relatedLead: "See also:",
+    relatedPlay: "Play padel in Bangkok",
+    relatedClubs: "Best padel clubs guide",
+    relatedCoaching: "Coaching",
+  },
 };
 
 const th: Dict = {
@@ -128,11 +176,17 @@ const th: Dict = {
       description:
         "กำลังหาโค้ชพาเดิลในกรุงเทพอยู่หรือเปล่า? โพสต์ถามใน Facebook กลุ่ม Bangkok Padel Community แล้วคอมมูนิตี้จะแนะนำโค้ชที่เหมาะกับคุณ",
     },
+    courts: {
+      title: "คอร์ทพาเดิลในกรุงเทพฯ — จัดอันดับ (ปี 2026)",
+      description:
+        "คอร์ทและคลับพาเดิลที่ดีที่สุดในกรุงเทพ จัดอันดับโดยคอมมูนิตี้ Bangkok Padel Community ครบทั้งราคา แอปจอง การเดินทาง BTS และจุดเด่นของแต่ละคลับ",
+    },
   },
   nav: {
     home: "หน้าแรก",
     blog: "บล็อก",
     coaching: "โค้ช",
+    courts: "คอร์ท",
     switchLanguage: "เปลี่ยนภาษา",
   },
   home: {
@@ -171,6 +225,27 @@ const th: Dict = {
     body: "เราไม่ได้สอนเองโดยตรง — แต่ในคอมมูนิตี้ของเรามีผู้เล่น กัปตันทีม และโค้ชจำนวนมากในกรุงเทพฯ ที่สามารถแนะนำโค้ชที่เหมาะกับระดับ ตารางเวลา และงบประมาณของคุณได้ เพียงโพสต์ถามในกลุ่ม Facebook คุณจะได้คำตอบอย่างรวดเร็ว",
     cta: "โพสต์ถามหาโค้ชในกลุ่ม Facebook",
     ctaSub: "ฟรี เปิดสาธารณะ และเป็นวิธีที่เร็วที่สุดในการหาโค้ชในกรุงเทพฯ",
+  },
+  courts: {
+    eyebrow: "อันดับคอร์ทพาเดิล",
+    h1: "คอร์ทพาเดิลในกรุงเทพ — จัดอันดับ (ปี 2026)",
+    lead: "สถานที่ตีพาเดิลที่ดีที่สุดในกรุงเทพ จัดอันดับโดยคอมมูนิตี้ พร้อมราคา แอปจอง และการเดินทาง BTS",
+    methodologyTitle: "อันดับนี้สร้างขึ้นอย่างไร",
+    methodology:
+      "อันดับสะท้อนคำแนะนำที่สมาชิกกลุ่ม Facebook Bangkok Padel Community แชร์ซ้ำ ๆ ผสมกับจำนวนคอร์ท ความน่าเชื่อถือของการจอง ความลึกของโค้ช โปรแกรมโซเชียล (Americano / mixer) และการเข้าถึง BTS / MRT เราอัปเดตเมื่อมีคลับเปิดใหม่หรือราคาเปลี่ยน ราคาอาจเปลี่ยนแปลง — ยืนยันกับคลับก่อนจองทุกครั้ง",
+    transit: "การเดินทาง",
+    courts: "คอร์ท",
+    price: "ราคา",
+    booking: "การจอง",
+    visitWebsite: "ดูเว็บไซต์",
+    ctaTitle: "ยังไม่แน่ใจว่าควรเลือกคลับไหน?",
+    ctaBody:
+      "โพสต์โซน ระดับ และตารางของคุณในกลุ่ม Facebook — คอมมูนิตี้จะแนะนำคลับที่เหมาะภายในวันเดียว",
+    ctaButton: "ถามในกลุ่ม Bangkok Padel Community",
+    relatedLead: "อ่านเพิ่มเติม:",
+    relatedPlay: "ตีพาเดิลในกรุงเทพ",
+    relatedClubs: "ไกด์คลับพาเดิล",
+    relatedCoaching: "โค้ช",
   },
 };
 

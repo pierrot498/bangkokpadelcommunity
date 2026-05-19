@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import BlogPostContent from "@/components/BlogPostContent";
 import { listPosts, postBySlug } from "@/data/posts";
 import { pageMetadata } from "@/lib/metadata";
-import { blogPostingLd, breadcrumbLd } from "@/lib/jsonld";
+import { blogPostingLd, breadcrumbLd, faqPageLd } from "@/lib/jsonld";
 import { dict } from "@/lib/i18n";
 
 const locale = "en" as const;
@@ -43,6 +43,7 @@ export default async function BlogPostPage({
 
   const d = dict(locale);
   const pathname = `/blog/${post.slug}`;
+  const faqItems = post.faq?.[locale];
 
   return (
     <>
@@ -75,6 +76,15 @@ export default async function BlogPostPage({
           ),
         }}
       />
+      {faqItems && faqItems.length > 0 ? (
+        <script
+          type="application/ld+json"
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(faqPageLd(faqItems)),
+          }}
+        />
+      ) : null}
       <BlogPostContent locale={locale} post={post} />
     </>
   );
