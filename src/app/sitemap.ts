@@ -28,6 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const posts = listPosts();
   return [
     entry("/", "/th", "weekly", 1),
+    entry("/courts", "/th/courts", "weekly", 0.9),
     entry("/blog", "/th/blog", "weekly", 0.9),
     entry("/coaching", "/th/coaching", "monthly", 0.8),
     ...posts.map((p) =>

@@ -128,6 +128,45 @@ export function blogPostingLd(args: {
   };
 }
 
+export function faqPageLd(items: { question: string; answer: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: items.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer,
+      },
+    })),
+  };
+}
+
+export function itemListLd(args: {
+  pathname: string;
+  name: string;
+  description: string;
+  items: { name: string; url?: string; description?: string }[];
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "@id": `${SITE_URL}${args.pathname}#itemlist`,
+    name: args.name,
+    description: args.description,
+    numberOfItems: args.items.length,
+    itemListOrder: "https://schema.org/ItemListOrderAscending",
+    itemListElement: args.items.map((item, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: item.name,
+      url: item.url,
+      description: item.description,
+    })),
+  };
+}
+
 export function siteGraph(locale: Locale) {
   return {
     "@context": "https://schema.org",

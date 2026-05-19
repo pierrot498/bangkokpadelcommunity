@@ -49,6 +49,10 @@ export function pageMetadata(args: PageMetaArgs): Metadata {
     height: 1254,
     alt: SITE_NAME,
   };
+  const absoluteImage = img.url.startsWith("http") ? img.url : `${SITE_URL}${img.url}`;
+  const imageAlt = img.alt ?? SITE_NAME;
+
+  const isArticle = type === "article";
 
   return {
     metadataBase: new URL(SITE_URL),
@@ -78,12 +82,20 @@ export function pageMetadata(args: PageMetaArgs): Metadata {
       description,
       publishedTime: args.publishedTime,
       modifiedTime: args.modifiedTime,
+      ...(isArticle
+        ? {
+            authors: [SITE_URL],
+            section: "Padel",
+            tags: args.keywords,
+          }
+        : {}),
       images: [
         {
           url: img.url,
+          secureUrl: absoluteImage,
           width: img.width,
           height: img.height,
-          alt: img.alt ?? SITE_NAME,
+          alt: imageAlt,
           type: "image/jpeg",
         },
       ],
@@ -92,7 +104,14 @@ export function pageMetadata(args: PageMetaArgs): Metadata {
       card: "summary_large_image",
       title,
       description,
-      images: [img.url],
+      images: [
+        {
+          url: img.url,
+          alt: imageAlt,
+          width: img.width,
+          height: img.height,
+        },
+      ],
     },
     robots: {
       index: true,
@@ -104,6 +123,10 @@ export function pageMetadata(args: PageMetaArgs): Metadata {
         "max-snippet": -1,
         "max-video-preview": -1,
       },
+    },
+    other: {
+      "og:image:secure_url": absoluteImage,
+      "og:image:alt": imageAlt,
     },
     manifest: "/manifest.webmanifest",
     formatDetection: { email: false, address: false, telephone: false },

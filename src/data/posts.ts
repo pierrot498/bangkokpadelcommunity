@@ -2,6 +2,8 @@ import type { Locale } from "@/lib/site";
 
 type Localized = Record<Locale, string>;
 type LocalizedKeywords = Record<Locale, string[]>;
+type FaqItem = { question: string; answer: string };
+type LocalizedFaq = Record<Locale, FaqItem[]>;
 
 export type Post = {
   slug: string;
@@ -11,6 +13,7 @@ export type Post = {
   excerpt: Localized;
   body: Localized;
   keywords: LocalizedKeywords;
+  faq?: LocalizedFaq;
 };
 
 /* ────────────────────────────────────────────────────────────────────────── */
@@ -907,7 +910,311 @@ const seasonTh = `
 > อยากได้เคล็ดลับการจองตามฤดูหรือคำแนะนำคลับสำหรับสภาพอากาศ? ถามในกลุ่ม [Bangkok Padel Community](https://web.facebook.com/groups/bangkok.padel.community)
 `;
 
+const playPadelEn = `
+## Play padel in Bangkok: the 2026 quick-start guide
+
+If you want to **play padel in Bangkok** this week, you don&apos;t need a
+membership, a partner or your own gear — you need three decisions: where,
+what app, and when. Bangkok now has more than two dozen padel venues
+across Sukhumvit, Sathorn, On Nut, Ratchada and Pratunam, and most of
+them will sell you a court for 800 – 2,000 THB or a single Americano
+seat for 400 – 800 THB. This guide is the shortest path from this page
+to your first match, curated by the **Bangkok Padel Community** on
+[Facebook](https://web.facebook.com/groups/bangkok.padel.community).
+
+> **TL;DR.** Pick the club nearest your BTS station, book a court on
+> Matchi / Playtomic / Padel Mates / GoWabi, rent a racket on arrival,
+> and join an open Americano if you don&apos;t have a 4th player.
+
+## Step 1 — Pick an area (the BTS rule)
+
+Bangkok traffic decides whether you actually show up, so book a club
+within 20 minutes of your home or office. Below are the four most
+common areas to **play padel in Bangkok**, with a one-line club pick
+for each.
+
+- **Sukhumvit (Asoke, Phrom Phong, Thonglor)** — *Bangkok Padel*
+  rooftop at the Ambassador Hotel (Sukhumvit 11) is the most central
+  panoramic court in the city. Booked via Matchi.
+- **Sathorn / Silom / Banthat Thong** — *Playerbox* (Padel Club
+  Bangkok) on Banthat Thong is the go-to with four outdoor courts open
+  day and night and off-peak rates from ~800 THB.
+- **East Bangkok (On Nut, Phra Khanong, Bang Na)** — *The Padel Co.*
+  has two indoor courts a short walk from On Nut BTS; *Kross Padel On
+  Nut* is the flagship with pool, ice bath and sauna.
+- **Ratchada / Pratunam / Phetchaburi** — *Padel Asia* on Ratchada 18
+  for casual league nights; *Bel Club 22* on Phetchaburi Rd for the
+  social scene under glass.
+
+For the full club-by-club breakdown with prices and amenities, see the
+[best padel clubs in Bangkok](/blog/best-padel-clubs-bangkok) guide, and
+the live ranking on the [Courts](/courts) page.
+
+## Step 2 — Book a court (which app for which club)
+
+Bangkok padel clubs split across four booking platforms. Install the
+one that matches your club and create the account *before* you arrive —
+walk-ins for primetime are usually full.
+
+| Platform | Clubs that use it |
+| --- | --- |
+| **Matchi** | Bangkok Padel (Ambassador Hotel rooftop) |
+| **Playtomic** | The Padel Co., Pad Thai Padel listings, several others |
+| **Padel Mates** | Bel Club 22 |
+| **GoWabi** | Playerbox and some independent venues |
+| **Direct (web / LINE)** | Kross Padel, No Drama Padel, Pad Thai Padel |
+
+**What you&apos;ll pay.** Court rental is **800 – 2,000 THB / hour
+total** (split across up to 4 players), so a typical doubles game
+costs **200 – 500 THB per person**. Off-peak (weekday mornings) is the
+cheapest. Primetime is 18:00 – 22:00 on weekdays and all day at the
+weekend — book three days ahead, more for Saturdays.
+
+> **Racket rental** runs ~100 THB at most clubs. Bring shoes with
+> non-marking soles (court tennis or indoor trainers); padel-specific
+> shoes are nice but not required for your first session.
+
+## Step 3 — Show up and play (the social shortcut)
+
+If you have three friends, just book a court. If you don&apos;t, the
+fastest way to **play padel in Bangkok** is to join an open
+**Americano** — a rotating mixed-doubles social format that lasts
+90 – 120 minutes and runs at most clubs once or twice a week.
+
+- **Americano seat:** 400 – 800 THB per player, balls and rackets often
+  included.
+- **How to find one:** Most clubs post their weekly Americano calendar
+  on Instagram or in their booking app. The
+  [Bangkok Padel Community](https://web.facebook.com/groups/bangkok.padel.community)
+  Facebook group posts open seats daily.
+- **Etiquette:** Show up 10 minutes early, introduce yourself, say what
+  level you are (true beginners are welcome — Americanos are explicitly
+  mixed). Bring water and a small towel; humidity is the real opponent
+  from March to October.
+
+For a deeper first-session walkthrough — rules, scoring, what to
+expect — see
+[Padel for Beginners in Bangkok](/blog/padel-for-beginners-bangkok).
+
+## Your first-week padel-in-Bangkok playbook
+
+A simple seven-day plan the community recommends to anyone arriving in
+the city:
+
+1. **Day 1** — Book a single **private lesson** (~1,400 – 2,000 THB) to
+   learn the serve, the wall and the bandeja. Coaching prices and
+   academies are listed in the
+   [coaching prices guide](/blog/padel-coaching-bangkok-prices-guide).
+2. **Day 3** — Book a court with three friends or join an
+   **Americano** at the same club.
+3. **Day 5** — Try a different area — east or central — to feel the
+   difference between indoor, rooftop and outdoor courts.
+4. **Day 7** — Post your level and schedule in the
+   [Facebook group](https://web.facebook.com/groups/bangkok.padel.community)
+   to find a regular group.
+
+By the end of week one you&apos;ll know which club fits your level and
+schedule. By the end of month one you&apos;ll probably be buying your
+first racket — when you are, the
+[racket buying guide](/blog/padel-racket-buying-guide-bangkok) walks
+through shape, weight and balance without overspending.
+
+## When and when not to play in Bangkok
+
+Padel in Bangkok runs all year, but three seasons change the equation:
+
+- **Hot season (March – May)** — book early mornings, late evenings,
+  or indoor / air-conditioned courts.
+- **Rainy season (June – October)** — covered or indoor courts only
+  for reliability; storms close outdoor courts at short notice.
+- **Cool season (November – February)** — the best months. Outdoor
+  rooftops are perfect; tournaments cluster in this window.
+
+The full breakdown is in the
+[season guide](/blog/bangkok-padel-season-guide).
+
+## Ready to play padel in Bangkok?
+
+The single fastest move you can make is to post in the
+[Bangkok Padel Community Facebook group](https://web.facebook.com/groups/bangkok.padel.community)
+with your area, level and weekly schedule. The community will point you
+to a club, a partner and an Americano within a day. See you on court.
+`;
+
+const playPadelTh = `
+## ตีพาเดิลในกรุงเทพปี 2026: ไกด์เริ่มต้นแบบเร็ว
+
+ถ้าคุณอยากเริ่ม**ตีพาเดิลในกรุงเทพ**ภายในสัปดาห์นี้ ไม่ต้องสมัครสมาชิก ไม่ต้องมีคู่ตี และไม่ต้องซื้ออุปกรณ์ — แค่ตัดสินใจ 3 อย่าง: ที่ไหน แอปไหน เวลาไหน ตอนนี้กรุงเทพมีคลับพาเดิลกว่า 20 แห่งกระจายอยู่ทั่วสุขุมวิท สาทร อ่อนนุช รัชดา และประตูน้ำ ส่วนใหญ่ค่าคอร์ทอยู่ที่ 800 – 2,000 บาทต่อชั่วโมง หรือเล่น Americano ที่นั่งละ 400 – 800 บาท ไกด์นี้คือเส้นทางที่สั้นที่สุดจากหน้านี้ไปยังแมตช์แรกของคุณ คัดสรรโดยชุมชน [Bangkok Padel Community](https://web.facebook.com/groups/bangkok.padel.community) บน Facebook
+
+> **สรุปสั้น ๆ** — เลือกคลับใกล้สถานี BTS ที่สุด จองคอร์ทผ่าน Matchi / Playtomic / Padel Mates / GoWabi เช่าไม้ที่คลับ และถ้ายังไม่มีคู่ตีให้สมัคร Americano
+
+## ขั้น 1 — เลือกโซน (กฎ BTS)
+
+รถติดในกรุงเทพคือสิ่งที่ตัดสินว่าคุณจะไปถึงคอร์ทจริงหรือไม่ ให้จองคลับที่อยู่ห่างจากบ้านหรือออฟฟิศไม่เกิน 20 นาที นี่คือ 4 โซนหลักสำหรับการ**ตีพาเดิลในกรุงเทพ** พร้อมคลับแนะนำ 1 แห่งต่อโซน
+
+- **สุขุมวิท (อโศก พร้อมพงษ์ ทองหล่อ)** — *Bangkok Padel* บนรูฟท็อปโรงแรม Ambassador (สุขุมวิท 11) เป็นคอร์ทกระจกพาโนรามาที่อยู่ใจกลางเมืองที่สุด จองผ่าน Matchi
+- **สาทร / สีลม / บรรทัดทอง** — *Playerbox* (Padel Club Bangkok) ที่บรรทัดทอง 4 คอร์ทกลางแจ้งเปิดทั้งวันทั้งคืน Off-peak เริ่มต้น ~800 บาท
+- **กรุงเทพตะวันออก (อ่อนนุช พระโขนง บางนา)** — *The Padel Co.* คอร์ทในร่ม 2 คอร์ทเดินจาก BTS อ่อนนุชใกล้ ๆ; *Kross Padel On Nut* เป็นแฟล็กชิป มีสระว่ายน้ำ ice bath และซาวน่า
+- **รัชดา / ประตูน้ำ / เพชรบุรี** — *Padel Asia* ที่รัชดา 18 สำหรับ league night แบบสบาย ๆ; *Bel Club 22* ถนนเพชรบุรี สำหรับบรรยากาศโซเชียลใต้กระจก
+
+ไกด์คลับแบบละเอียดพร้อมราคาและสิ่งอำนวยความสะดวก ดูได้ที่
+[คลับพาเดิลที่ดีที่สุดในกรุงเทพ](/th/blog/best-padel-clubs-bangkok) และอันดับล่าสุดที่หน้า [Courts](/th/courts)
+
+## ขั้น 2 — จองคอร์ท (แอปไหนใช้กับคลับไหน)
+
+คลับพาเดิลในกรุงเทพกระจายอยู่บน 4 แพลตฟอร์มจอง ติดตั้งแอปที่ตรงกับคลับและสมัครบัญชี*ก่อน*ไปถึง — Walk-in ช่วงไพรม์ไทม์มักเต็ม
+
+| แพลตฟอร์ม | คลับที่ใช้ |
+| --- | --- |
+| **Matchi** | Bangkok Padel (รูฟท็อป Ambassador) |
+| **Playtomic** | The Padel Co., Pad Thai Padel และอื่น ๆ |
+| **Padel Mates** | Bel Club 22 |
+| **GoWabi** | Playerbox และบางคลับอิสระ |
+| **จองตรง (เว็บ / LINE)** | Kross Padel, No Drama Padel, Pad Thai Padel |
+
+**ค่าใช้จ่ายโดยทั่วไป** — ค่าคอร์ทรวม **800 – 2,000 บาท / ชั่วโมง** (หาร 4 ผู้เล่น) เท่ากับคนละ **200 – 500 บาท** ช่วงเช้าวันธรรมดาถูกที่สุด Primetime คือ 18:00 – 22:00 วันธรรมดา และทั้งวันในเสาร์อาทิตย์ — ควรจองล่วงหน้า 3 วัน เสาร์อาทิตย์มากกว่านั้น
+
+> **เช่าไม้** ราคาประมาณ 100 บาทที่คลับส่วนใหญ่ ใส่รองเท้าพื้นไม่ทิ้งคราบ (court tennis หรือ indoor trainers) รองเท้าพาเดิลโดยเฉพาะดีกว่าแต่ไม่จำเป็นสำหรับครั้งแรก
+
+## ขั้น 3 — มาถึงคอร์ทแล้วเริ่มเล่น (ทางลัดโซเชียล)
+
+ถ้ามีเพื่อน 3 คน จองคอร์ทเลย ถ้าไม่มี วิธีที่เร็วที่สุดในการ**ตีพาเดิลในกรุงเทพ**คือสมัครเล่น **Americano** เปิด — รูปแบบ doubles หมุนเวียนคู่ 90 – 120 นาที จัดทุกสัปดาห์ในเกือบทุกคลับ
+
+- **ค่าที่นั่ง Americano** 400 – 800 บาทต่อคน รวมลูกและบางครั้งรวมไม้
+- **หา Americano อย่างไร** — คลับส่วนใหญ่โพสต์ปฏิทินใน Instagram หรือในแอปจอง กลุ่ม [Bangkok Padel Community](https://web.facebook.com/groups/bangkok.padel.community) มีโพสต์ที่นั่งว่างทุกวัน
+- **มารยาท** — มาถึงก่อน 10 นาที แนะนำตัว บอกระดับฝีมือ (มือใหม่จริง ๆ ก็ยินดี — Americano คือฟอร์แมตคละระดับ) เตรียมน้ำและผ้าเช็ดตัวเล็ก ความชื้นคือศัตรูตัวจริงตั้งแต่มี.ค. ถึงต.ค.
+
+อ่านไกด์เซสชั่นแรกแบบละเอียด — กฎ การนับแต้ม สิ่งที่ต้องเจอ — ที่
+[พาเดิลสำหรับมือใหม่ในกรุงเทพ](/th/blog/padel-for-beginners-bangkok)
+
+## แผน 7 วันแรกที่คอมมูนิตี้แนะนำ
+
+แพลนง่าย ๆ สำหรับใครก็ตามที่เพิ่งเริ่ม
+
+1. **วันที่ 1** — จอง**บทเรียนส่วนตัว** 1 ครั้ง (~1,400 – 2,000 บาท) เพื่อเรียนเสิร์ฟ การเล่นกับกระจก และ bandeja ราคาและอะคาเดมีดูได้ที่[ไกด์ราคาเรียน](/th/blog/padel-coaching-bangkok-prices-guide)
+2. **วันที่ 3** — จองคอร์ทกับเพื่อน 3 คน หรือเข้าร่วม **Americano** ที่คลับเดิม
+3. **วันที่ 5** — ลองโซนใหม่ — ตะวันออกหรือใจกลางเมือง — เพื่อรู้สึกความต่างระหว่างคอร์ทในร่ม รูฟท็อป และกลางแจ้ง
+4. **วันที่ 7** — โพสต์ระดับฝีมือและตารางในกลุ่ม [Facebook](https://web.facebook.com/groups/bangkok.padel.community) เพื่อหาก๊วนประจำ
+
+จบสัปดาห์แรกคุณจะรู้ว่าคลับไหนเหมาะกับระดับและตารางของคุณ จบเดือนแรกคงเริ่มอยากซื้อไม้ของตัวเอง — เมื่อถึงเวลานั้น [ไกด์เลือกไม้พาเดิล](/th/blog/padel-racket-buying-guide-bangkok) จะช่วยเลือกทรง น้ำหนัก และสมดุลโดยไม่ต้องจ่ายแพงเกิน
+
+## เล่นเมื่อไหร่ดี (และเมื่อไหร่ไม่ควร)
+
+พาเดิลในกรุงเทพเล่นได้ตลอดปี แต่ 3 ฤดูเปลี่ยนสมการ
+
+- **ฤดูร้อน (มี.ค. – พ.ค.)** — จองเช้าตรู่ ดึก หรือคอร์ทในร่ม / มีแอร์
+- **ฤดูฝน (มิ.ย. – ต.ค.)** — เลือกคอร์ทคลุมหรือในร่มเพื่อความแน่นอน
+- **ฤดูหนาว (พ.ย. – ก.พ.)** — เดือนที่ดีที่สุด คอร์ทกลางแจ้งและรูฟท็อปยอดเยี่ยม ทัวร์นาเมนต์รวมตัวอยู่ในช่วงนี้
+
+อ่านแบบเต็ม ๆ ที่[ไกด์ตามฤดู](/th/blog/bangkok-padel-season-guide)
+
+## พร้อมเริ่มตีพาเดิลในกรุงเทพแล้วหรือยัง?
+
+วิธีที่เร็วที่สุดคือโพสต์ในกลุ่ม [Bangkok Padel Community](https://web.facebook.com/groups/bangkok.padel.community) พร้อมโซน ระดับ และตารางของคุณ คอมมูนิตี้จะแนะนำคลับ คู่ตี และ Americano ให้ภายใน 1 วัน เจอกันบนคอร์ท
+`;
+
 export const posts: Post[] = [
+  {
+    slug: "play-padel-bangkok",
+    date: "2026-05-19",
+    readMinutes: 6,
+    title: {
+      en: "Play Padel in Bangkok: The 2026 Quick-Start Guide (Book a Court This Week)",
+      th: "ตีพาเดิลในกรุงเทพ: ไกด์เริ่มต้นแบบเร็ว ปี 2026 (จองคอร์ทได้ภายในสัปดาห์นี้)",
+    },
+    excerpt: {
+      en: "Where to play padel in Bangkok, which app to book on, how much it costs, and how to find an Americano if you don't have a partner. The shortest path to your first match.",
+      th: "ตีพาเดิลในกรุงเทพที่ไหน จองผ่านแอปไหน ราคาเท่าไหร่ และวิธีหา Americano ถ้ายังไม่มีคู่ตี เส้นทางที่สั้นที่สุดสู่แมตช์แรกของคุณ",
+    },
+    keywords: {
+      en: [
+        "play padel Bangkok",
+        "padel Bangkok",
+        "where to play padel Bangkok",
+        "padel court Bangkok booking",
+        "padel Bangkok price",
+        "Americano padel Bangkok",
+        "Matchi Playtomic Bangkok",
+        "Bangkok padel guide 2026",
+      ],
+      th: [
+        "ตีพาเดิล กรุงเทพ",
+        "พาเดิล กรุงเทพ",
+        "เล่นพาเดิล กรุงเทพ ที่ไหน",
+        "จองคอร์ทพาเดิล กรุงเทพ",
+        "ราคา พาเดิล กรุงเทพ",
+        "Americano พาเดิล",
+        "Matchi Playtomic กรุงเทพ",
+      ],
+    },
+    body: { en: playPadelEn, th: playPadelTh },
+    faq: {
+      en: [
+        {
+          question: "Where can I play padel in Bangkok?",
+          answer:
+            "You can play padel at more than two dozen clubs across Bangkok, including Bangkok Padel (Sukhumvit 11 rooftop), Playerbox / Padel Club Bangkok (Banthat Thong), The Padel Co. (On Nut), Kross Padel On Nut, Pad Thai Padel (Sukhumvit), Padel Asia (Ratchada 18), No Drama Padel and Bel Club 22 (Phetchaburi Rd). Most are within 20 minutes of a BTS or MRT station.",
+        },
+        {
+          question: "How much does it cost to play padel in Bangkok?",
+          answer:
+            "Court rental in Bangkok is typically 800 to 2,000 THB per hour, split across up to four players — so about 200 to 500 THB per person for a one-hour game. Off-peak weekday mornings are cheapest. A single Americano social-tournament seat is usually 400 to 800 THB and includes balls, with rackets often available to rent for around 100 THB.",
+        },
+        {
+          question: "Do I need to bring my own racket and balls to play padel in Bangkok?",
+          answer:
+            "No. Almost every Bangkok padel club rents rackets for about 100 THB per session and provides balls for Americano social events. Bring shoes with non-marking soles (indoor court or tennis shoes), water and a small towel. You only need to buy your own racket once you have decided to play regularly.",
+        },
+        {
+          question: "What is the best app to book a padel court in Bangkok?",
+          answer:
+            "Bangkok padel clubs split across four booking platforms. Matchi covers Bangkok Padel (Ambassador Hotel rooftop). Playtomic covers The Padel Co. and several others. Padel Mates is used by Bel Club 22. GoWabi covers Playerbox and some independents. Kross Padel, No Drama Padel and Pad Thai Padel also take direct bookings via their websites and LINE.",
+        },
+        {
+          question: "Can I play padel in Bangkok if I don't have a partner?",
+          answer:
+            "Yes. Most Bangkok clubs run weekly open Americanos — rotating mixed-doubles social sessions where you sign up as a single player for 400 to 800 THB. You can also post your area, level and schedule in the Bangkok Padel Community Facebook group; players will usually invite you to a court within a day.",
+        },
+        {
+          question: "When is the best time of year to play padel in Bangkok?",
+          answer:
+            "Bangkok's cool season from November to February is the best time to play padel outdoors and is when most tournaments run. From March to October, choose indoor or covered courts — the hot season favours early-morning and late-evening sessions, and rainy season storms can close outdoor courts at short notice.",
+        },
+      ],
+      th: [
+        {
+          question: "เล่นพาเดิลในกรุงเทพได้ที่ไหนบ้าง?",
+          answer:
+            "เล่นพาเดิลได้ที่คลับมากกว่า 20 แห่งทั่วกรุงเทพ เช่น Bangkok Padel (รูฟท็อปสุขุมวิท 11), Playerbox / Padel Club Bangkok (บรรทัดทอง), The Padel Co. (อ่อนนุช), Kross Padel On Nut, Pad Thai Padel (สุขุมวิท), Padel Asia (รัชดา 18), No Drama Padel และ Bel Club 22 (ถนนเพชรบุรี) ส่วนใหญ่ห่างจาก BTS หรือ MRT ไม่เกิน 20 นาที",
+        },
+        {
+          question: "ค่าตีพาเดิลในกรุงเทพประมาณเท่าไหร่?",
+          answer:
+            "ค่าคอร์ทรวมประมาณ 800 – 2,000 บาท / ชั่วโมง หาร 4 ผู้เล่นเหลือคนละ 200 – 500 บาท เช้าวันธรรมดา (off-peak) ถูกที่สุด ค่าที่นั่ง Americano อยู่ที่ 400 – 800 บาทต่อคน รวมลูก เช่าไม้ที่คลับประมาณ 100 บาท",
+        },
+        {
+          question: "ต้องเอาไม้และลูกไปเองหรือไม่?",
+          answer:
+            "ไม่ต้อง คลับพาเดิลในกรุงเทพส่วนใหญ่ให้เช่าไม้ประมาณ 100 บาทต่อครั้ง และเตรียมลูกให้สำหรับ Americano เตรียมรองเท้าพื้นไม่ทิ้งคราบ (court หรือ tennis), น้ำ และผ้าเช็ดตัวเล็ก ไม้ของตัวเองค่อยซื้อเมื่อแน่ใจว่าจะเล่นต่อ",
+        },
+        {
+          question: "ใช้แอปไหนจองคอร์ทพาเดิลในกรุงเทพ?",
+          answer:
+            "Matchi สำหรับ Bangkok Padel (รูฟท็อป Ambassador), Playtomic สำหรับ The Padel Co. และอีกหลายคลับ, Padel Mates สำหรับ Bel Club 22, GoWabi สำหรับ Playerbox และคลับอิสระบางแห่ง ส่วน Kross Padel, No Drama Padel และ Pad Thai Padel จองตรงผ่านเว็บหรือ LINE ได้เช่นกัน",
+        },
+        {
+          question: "ถ้ายังไม่มีคู่ตีจะเล่นได้ไหม?",
+          answer:
+            "ได้ คลับส่วนใหญ่จัด Americano เปิดทุกสัปดาห์ — รูปแบบ doubles หมุนเวียน สมัครคนเดียวได้ ค่าที่นั่ง 400 – 800 บาท หรือโพสต์โซน ระดับ และตารางของคุณในกลุ่ม Bangkok Padel Community บน Facebook มักได้คำชวนภายใน 1 วัน",
+        },
+        {
+          question: "ช่วงไหนของปีเหมาะกับการตีพาเดิลในกรุงเทพ?",
+          answer:
+            "ฤดูหนาว (พ.ย. – ก.พ.) เหมาะที่สุดสำหรับคอร์ทกลางแจ้ง ทัวร์นาเมนต์ส่วนใหญ่จัดในช่วงนี้ มี.ค. – ต.ค. ให้เลือกคอร์ทในร่มหรือคลุม ฤดูร้อนเหมาะกับเช้าตรู่หรือดึก ส่วนฤดูฝนพายุอาจปิดคอร์ทกลางแจ้งกะทันหัน",
+        },
+      ],
+    },
+  },
   {
     slug: "padel-for-beginners-bangkok",
     date: "2026-05-16",

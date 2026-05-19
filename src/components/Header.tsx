@@ -7,6 +7,7 @@ export default function Header({ locale }: { locale: Locale }) {
   const d = dict(locale);
   const nav = [
     { href: localePath(locale, "/"), label: d.nav.home },
+    { href: localePath(locale, "/courts"), label: d.nav.courts },
     { href: localePath(locale, "/blog"), label: d.nav.blog },
     { href: localePath(locale, "/coaching"), label: d.nav.coaching },
   ];
