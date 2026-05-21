@@ -117,7 +117,7 @@ const en: Dict = {
   popup: {
     title: "Join the Bangkok Padel Community",
     body: "Get matched with players, discover courts and stay up to date on tournaments and events — directly in our Facebook group.",
-    primary: "Open the Facebook group",
+    primary: "Join the Facebook group",
     secondary: "Maybe later",
   },
   blog: {
@@ -207,7 +207,7 @@ const th: Dict = {
   popup: {
     title: "เข้าร่วม Bangkok Padel Community",
     body: "หาคู่ตี ค้นหาคอร์ท และอัปเดตทัวร์นาเมนต์กับอีเวนต์ — ได้ในกลุ่ม Facebook ของเราโดยตรง",
-    primary: "เปิดกลุ่ม Facebook",
+    primary: "เข้าร่วมกลุ่ม Facebook",
     secondary: "ไว้ค่อยดู",
   },
   blog: {
