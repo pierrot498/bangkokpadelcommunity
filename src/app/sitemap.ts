@@ -45,6 +45,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...pair("/", "/th", "weekly", 1),
     ...pair("/courts", "/th/courts", "weekly", 0.9),
+    ...pair("/tournaments", "/th/tournaments", "daily", 0.9),
     ...pair("/blog", "/th/blog", "weekly", 0.9),
     ...pair("/coaching", "/th/coaching", "monthly", 0.8),
     ...posts.flatMap((p) =>
