@@ -49,13 +49,14 @@ export type TournamentsSnapshot = {
   scrapedAt: string;
   source: string;
   geo: { center: string; radiusMeters: number };
+  fromDate: string;
   horizonDays: number;
   clubs: PlaytomicClub[];
   tournaments: PlaytomicTournament[];
   totals: {
     clubs: number;
     tournamentsTotal: number;
-    tournamentsUpcoming: number;
+    tournamentsInWindow: number;
   };
 };
 
