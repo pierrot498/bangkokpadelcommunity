@@ -1,11 +1,12 @@
 {
-  "scrapedAt": "2026-05-21T10:33:32.145Z",
+  "scrapedAt": "2026-05-21T10:55:56.060Z",
   "source": "playtomic",
   "geo": {
     "center": "13.7563,100.5018",
     "radiusMeters": 50000
   },
-  "horizonDays": 365,
+  "fromDate": "2026-05-01T00:00:00",
+  "horizonDays": 540,
   "clubs": [
     {
       "id": "6f08663e-ec8d-4255-9f80-c80a5f1c0c63",
@@ -2561,6 +2562,6 @@
   "totals": {
     "clubs": 8,
     "tournamentsTotal": 200,
-    "tournamentsUpcoming": 84
+    "tournamentsInWindow": 84
   }
 }
