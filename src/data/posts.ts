@@ -2314,7 +2314,1301 @@ const baanPadelTh = `
 [อันดับคอร์ท](/th/courts) · [พาเดิลใกล้ฉัน](/th/blog/padel-near-me-bangkok)
 `;
 
+/* ────────────────────────────────────────────────────────────────────────── */
+/*  Post — Padel Overgrip Bangkok Humidity Guide                              */
+/* ────────────────────────────────────────────────────────────────────────── */
+
+const overgripEn = `
+## The padel overgrip guide for Bangkok&apos;s humidity (2026)
+
+A new padel racket comes with one grip. In Bangkok&apos;s 30–35°C heat
+and 70–85% relative humidity, that grip is slick within 20 minutes of
+play. The fix is an **overgrip** — a thin replaceable wrap that absorbs
+sweat and refreshes feel. This guide compares the overgrips Bangkok
+players actually use, with current THB prices and where to buy them.
+
+> **Quick take.** For Bangkok&apos;s heat, dry-feel tacky overgrips
+> outperform pure-tacky ones. Buy a 3-pack and change the wrap every
+> 3–5 sessions — not every 3 months. Prices below are as of mid-2026
+> and verified at Thai retailers; always confirm before checkout.
+
+## Best padel overgrips for hot, humid weather
+
+| Overgrip | Type | Feel | 3-pack price (THB) | Where to buy in Bangkok |
+| --- | --- | --- | --- | --- |
+| 4ON Premium Comfort | Dry-tacky | Soft, absorbent | ~427 | Padel Racket Thailand |
+| Bullpadel Gel Dry | Dry-tacky | Cushioned, perforated | ~450–550 | Bullpadel Asia, No Drama Padel |
+| Wilson Pro Overgrip | Dry | Thin, sweat-wicking | ~390–500 | Wilson Thailand (free ship >4,000 THB) |
+| HEAD Hydrosorb Pro | Dry | Microfiber feel | ~450–600 | Lazada / Shopee imports |
+| Tourna Grip Original | Dry | Driest of the lot | ~400–500 | Lazada / Shopee imports |
+| Adidas Tacky Feeling | Tacky | Glue-like, fresh | ~350–450 | No Drama Padel, Lazada |
+
+The split that matters in Bangkok is **dry vs tacky**. Tacky overgrips
+feel great on dry European mornings and turn into wet paper by your
+fourth game in Phra Khanong. Dry-feel grips with a perforated or
+microfibre surface stay grippy because they wick sweat away from the
+handle, not toward it.
+
+## Why grip changes faster in Bangkok
+
+Three Bangkok-specific factors shorten the life of every overgrip:
+
+1. **Sweat volume.** A 90-minute session in March produces 1.5–2 L of
+   sweat per player. That fluid soaks through the overgrip into the
+   base grip beneath, where it stays.
+2. **Indoor courts without strong air-con.** Many Bangkok clubs cover
+   the courts but rely on industrial fans. Without dehumidification,
+   wraps never fully dry between sessions in a club bag.
+3. **Bag storage.** Leaving a racket in a hot car in a Sukhumvit
+   carpark for an hour after play accelerates grip rot.
+
+Plan to change the wrap **every 3–5 sessions** from March to October,
+and every 5–8 sessions in the cool season (November to February).
+
+## How to apply a padel overgrip
+
+1. **Strip the old wrap.** Pull from the butt cap up. Wipe the base
+   grip with a dry cloth.
+2. **Start at the butt cap.** Anchor the tapered end with the included
+   finishing tape on the bevel facing your palm.
+3. **Wrap with light tension** in a spiral up the handle, with each
+   turn overlapping the previous by about 2 mm.
+4. **Finish with the included tape** about one finger below where the
+   racket head begins.
+5. **Squeeze and trim** any excess overhang at the top before taping.
+
+A clean wrap takes 90 seconds. If your overgrip is bunching, you&apos;re
+pulling too hard or starting in the wrong direction.
+
+## Where to buy padel overgrips in Bangkok
+
+- **Padel Racket Thailand** — the most consistent local stock, 4ON
+  Premium 3-pack at 427 THB, ships nationwide.
+- **No Drama Padel** — on-site shop at the club; convenient if you&apos;re
+  taking a lesson anyway.
+- **Bullpadel Asia** — regional storefront, full Bullpadel range.
+- **Wilson Thailand** (th.wilson.com) — free shipping over 4,000 THB,
+  good for stacking a 6-pack with strings or wristbands.
+- **Decathlon Thailand** — Artengo own-brand overgrips at the lowest
+  price point, fine for high-volume players.
+- **Lazada / Shopee** — fastest for HEAD Hydrosorb and Tourna Grip,
+  but watch for counterfeit listings.
+
+If you&apos;re shopping in-person, **No Drama Padel** in Ratchada and the
+**Pad Thai Padel** pro shop both keep small accessory walls — quicker
+than waiting on a delivery before a 7 pm match.
+
+## Two upgrades worth pairing with a new overgrip
+
+- **Wristbands and a sweat-band.** A simple terry wristband doubles the
+  effective life of any overgrip by catching arm sweat before it runs
+  down to the handle. Decathlon sells two for 159 THB.
+- **A racket towel.** Hang a small microfibre off your bag and dry the
+  handle between every change-of-ends. Bag rot is a real thing in
+  Bangkok.
+
+## Bangkok-specific FAQ
+
+If you want the rest of the kit, read our
+[padel racket buying guide for Bangkok](/blog/padel-racket-buying-guide-bangkok)
+and the
+[padel shoes guide for Bangkok](/blog/padel-shoes-bangkok).
+
+> Have a brand you swear by in Bangkok&apos;s heat? Share it with the
+> [Bangkok Padel Community Facebook group](https://web.facebook.com/groups/bangkok.padel.community)
+> — every recommendation helps another player.
+`;
+
+const overgripTh = `
+## คู่มือกริปพาเดิลสำหรับอากาศชื้นของกรุงเทพ (ปี 2026)
+
+ไม้พาเดิลใหม่มาพร้อมกริปเดิม 1 ชั้น แต่ในกรุงเทพที่อุณหภูมิ 30–35°C
+และความชื้น 70–85% กริปนั้นจะลื่นภายใน 20 นาทีของการตี
+ทางแก้คือใส่ **โอเวอร์กริป (overgrip)** — ผ้าพันบาง ๆ ที่ดูดเหงื่อ
+และเปลี่ยนได้ บทความนี้เปรียบเทียบโอเวอร์กริปที่ผู้เล่นในกรุงเทพ
+ใช้จริง พร้อมราคาบาทล่าสุดและจุดซื้อ
+
+> **สรุปสั้น ๆ** สำหรับอากาศร้อนชื้นแบบกรุงเทพ กริปแบบ Dry-feel
+> ดีกว่ากริปแบบเหนียวล้วน ๆ ซื้อเป็นแพ็ค 3 และเปลี่ยนทุก 3–5
+> ครั้งที่ตี ไม่ใช่ทุก 3 เดือน ราคาด้านล่างเป็นข้อมูลกลางปี 2026
+> ควรเช็คก่อนสั่ง
+
+## โอเวอร์กริปที่เหมาะกับอากาศร้อนชื้น
+
+| โอเวอร์กริป | ประเภท | สัมผัส | ราคาแพ็ค 3 (บาท) | จุดซื้อในกรุงเทพ |
+| --- | --- | --- | --- | --- |
+| 4ON Premium Comfort | Dry-tacky | นุ่ม ดูดซับดี | ~427 | Padel Racket Thailand |
+| Bullpadel Gel Dry | Dry-tacky | นุ่ม มีรู | ~450–550 | Bullpadel Asia, No Drama |
+| Wilson Pro Overgrip | Dry | บาง ดูดเหงื่อ | ~390–500 | Wilson Thailand |
+| HEAD Hydrosorb Pro | Dry | สัมผัส Microfiber | ~450–600 | Lazada / Shopee |
+| Tourna Grip Original | Dry | แห้งที่สุด | ~400–500 | Lazada / Shopee |
+| Adidas Tacky Feeling | Tacky | เหนียวสด | ~350–450 | No Drama, Lazada |
+
+ความแตกต่างที่สำคัญที่สุดคือ **Dry vs Tacky** กริปเหนียวล้วน ๆ
+เหมาะกับอากาศแห้งของยุโรป แต่ในกรุงเทพจะเปียกหลังเกมที่ 4
+ส่วนกริปแบบ Dry-feel มีพื้นผิวเจาะรูหรือ Microfiber ที่ดึงเหงื่อ
+ออกจากด้ามไม้ ทำให้กระชับนานกว่า
+
+## ทำไมโอเวอร์กริปในกรุงเทพหมดอายุเร็ว
+
+1. **เหงื่อเยอะ** เซสชั่น 90 นาทีในเดือนมีนาคมเสียเหงื่อ 1.5–2 ลิตร
+   ต่อคน เหงื่อซึมผ่านโอเวอร์กริปลงไปที่กริปเดิมและค้างอยู่
+2. **คอร์ทในร่มไม่มีแอร์** คลับหลายที่มีหลังคาแต่ใช้พัดลม
+   อุตสาหกรรม ไม่มีระบบลดความชื้น ผ้าพันแทบไม่เคยแห้งสนิทในกระเป๋า
+3. **เก็บไม้ในรถร้อน** วางไม้ในรถที่ลานจอดสุขุมวิทกลางวันแค่ 1 ชม.
+   ก็เร่งการเสื่อมของกริปแล้ว
+
+วางแผนเปลี่ยนผ้าพัน **ทุก 3–5 ครั้งที่ตี** ในช่วง มี.ค.–ต.ค. และ
+ทุก 5–8 ครั้งในช่วง พ.ย.–ก.พ.
+
+## วิธีพันโอเวอร์กริปพาเดิล
+
+1. **ลอกของเก่าออก** ดึงจากท้ายด้ามขึ้น แล้วเช็ดกริปเดิมให้แห้ง
+2. **เริ่มที่ท้ายด้าม** ติดปลายด้วยเทปที่แถมมา หันด้านเรียวเข้าหา
+   ฝ่ามือ
+3. **พันแบบดึงเบา ๆ** หมุนขึ้นทีละรอบ โดยให้รอบใหม่ทับรอบเก่า ~2 มม.
+4. **ปิดด้วยเทป** ห่างจากหัวไม้ประมาณ 1 นิ้ว
+5. **บีบและตัด** ปลายส่วนเกินก่อนติดเทป
+
+ทำสะอาด ๆ ใช้เวลา 90 วินาที ถ้าผ้าพันเป็นคลื่น แปลว่าดึงแรงไป
+หรือเริ่มผิดทิศ
+
+## ซื้อโอเวอร์กริปพาเดิลในกรุงเทพได้ที่ไหน
+
+- **Padel Racket Thailand** — สต็อกเสถียรที่สุด 4ON Premium แพ็ค 3
+  ราคา 427 บาท ส่งทั่วประเทศ
+- **No Drama Padel** — ร้านในคลับ สะดวกถ้ามาเรียนหรือมาตีอยู่แล้ว
+- **Bullpadel Asia** — สโตร์ภูมิภาค สินค้าครบทั้งไลน์
+- **Wilson Thailand** (th.wilson.com) — ส่งฟรีเมื่อยอดเกิน 4,000 บาท
+- **Decathlon Thailand** — โอเวอร์กริปแบรนด์ Artengo ถูกที่สุด
+  เหมาะกับคนตีบ่อย
+- **Lazada / Shopee** — เร็วสุดสำหรับ HEAD Hydrosorb และ Tourna
+  Grip ระวังของปลอม
+
+หรือถ้าจะซื้อหน้าร้านก่อนแมตช์เย็น **No Drama Padel** (รัชดา) และ
+**Pad Thai Padel** (สุขุมวิท) มีมุมอุปกรณ์ขายอยู่
+
+## อัพเกรดที่ควรซื้อพร้อมโอเวอร์กริปใหม่
+
+- **ริสต์แบนด์ / แถบคาดศีรษะ** ผ้าทำให้โอเวอร์กริปอยู่ทนเป็นเท่าตัว
+  เพราะหยุดเหงื่อก่อนไหลถึงด้าม Decathlon ขาย 2 ชิ้น 159 บาท
+- **ผ้าเช็ดไม้** ผ้า Microfibre เล็ก ๆ ห้อยกระเป๋า เช็ดด้ามทุกครั้ง
+  ตอนสลับฝั่ง การเก็บในกระเป๋าเปียก = กริปเน่าเร็ว
+
+## คำถามที่ถามกันบ่อย
+
+อ่านต่อ:
+[เลือกไม้พาเดิลในกรุงเทพ](/th/blog/padel-racket-buying-guide-bangkok) ·
+[รองเท้าพาเดิลในกรุงเทพ](/th/blog/padel-shoes-bangkok)
+
+> มีแบรนด์โปรดในอากาศกรุงเทพ? แชร์ในกลุ่ม
+> [Bangkok Padel Community](https://web.facebook.com/groups/bangkok.padel.community)
+> — ทุกคำแนะนำช่วยผู้เล่นคนอื่นเจอตัวที่ใช่
+`;
+
+/* ────────────────────────────────────────────────────────────────────────── */
+/*  Post — Padel Balls Thailand Price Guide                                   */
+/* ────────────────────────────────────────────────────────────────────────── */
+
+const ballsEn = `
+## Padel balls in Thailand: what they cost and which to buy (2026)
+
+A tube of padel balls in Bangkok runs **200 to 350 THB** for the
+mainstream brands. Open-court Americano fees usually include balls, so
+you only buy your own once you start booking private courts. This
+guide compares the brands available in Thailand, their actual prices,
+and where to buy without paying the import markup.
+
+> **Quick take.** For most Bangkok players, **Head Padel Pro S+** at
+> ~300 THB per tube at No Drama Padel is the default. Pros and serious
+> 3.5+ players use **Bullpadel Premium Pro**. Wilson and Babolat are
+> fine alternatives at slightly lower prices. Prices below are as of
+> mid-2026.
+
+## Padel ball price comparison in Thailand
+
+| Ball | Tube price (THB) | Where to buy | Best for |
+| --- | --- | --- | --- |
+| Head Padel Pro S+ | ~300 (No Drama) | No Drama Padel, Padel Racket TH, Decathlon | All-round, official WPT ball |
+| Head Padel Pro | ~280–320 | The Padel Co. shop, Lazada | Cool-season outdoor |
+| Bullpadel Premium Pro | ~320–380 | Bullpadel Asia, No Drama | Tournaments, faster courts |
+| Wilson X3 | ~250–300 | Wilson Thailand, Lazada | Practice, social play |
+| Babolat Tour | ~280–320 | Padel Racket TH, Lazada | Cool-season, longer-lasting |
+| Decathlon Artengo PB 990 | ~199–249 | Decathlon TH | Drills, beginners |
+
+A tube has **3 balls** in 99% of cases. Watch the listing — some
+international listings show 4-ball tubes and the per-ball price looks
+cheaper than it really is.
+
+## Why ball choice matters more in Bangkok
+
+Padel balls are pressurised, so they slow as they lose pressure. In
+Bangkok&apos;s heat and humidity:
+
+1. **Balls lose pressure faster** when stored in a hot car or a humid
+   bag. A tube opened in March will feel dead two weeks earlier than
+   one opened in January.
+2. **Faster balls (Pro S+) are best for slower indoor courts** common
+   in Bangkok. Slower balls (Pro Slow) suit very fast outdoor courts —
+   we don&apos;t have many of those in town.
+3. **Altitude is a non-issue.** Bangkok is at sea level. The pro-tour
+   "altitude ball" debate doesn&apos;t apply to anywhere in central or
+   eastern Thailand.
+
+If you play 2–3 times a week, expect to open a new tube every 2–3
+sessions for matches and every 4–6 sessions for drills.
+
+## Where to buy padel balls in Bangkok
+
+- **No Drama Padel** — Head Padel Pro S+ at 300 THB confirmed in
+  mid-2026. Easy to walk in before a coaching session.
+- **Padel Racket Thailand** (padelracket.in.th) — full Head, Babolat
+  and Bullpadel range, ships nationwide.
+- **The Padel Co.** — On Nut. Stocks a curated brand mix; pair with a
+  court booking via Playtomic.
+- **Bullpadel Asia** — regional storefront. Premium Pro tubes ship
+  from Singapore but reach Bangkok in 3–5 days.
+- **Wilson Thailand** (th.wilson.com) — free shipping over 4,000 THB.
+- **Decathlon Thailand** — Artengo PB 990 is the budget option for
+  drills and beginners.
+- **Lazada / Shopee** — fastest delivery but check the seller&apos;s
+  rating; padel balls are a common counterfeit category.
+
+## Tournament balls vs practice balls
+
+Most Bangkok clubs use **Head Padel Pro S+** for league nights and
+**Bullpadel Premium Pro** for sanctioned tournaments (the same model
+used on the Cupra FIP Tour Thailand events in Samui and Phangan). For
+private matches at any 3.0–3.5 level, the Head Pro S+ is more than
+enough — and 80 THB cheaper than the Bullpadel.
+
+## How long do padel balls last?
+
+A tube of three new balls is competition-grade for **about 3–4 hours
+of high-intensity play**. After that the bounce drops noticeably and
+the felt starts to mat. Bangkok players typically:
+
+- Use a fresh tube for important matches or tournament training.
+- Demote older balls to drills, warm-ups, or solo wall sessions.
+- Recycle dead balls as juggling props or dog toys — many Bangkok
+  clubs have a "free dead balls" bucket near reception.
+
+## Padel ball etiquette in Bangkok
+
+- **Bring fresh balls to private matches.** Splitting a 300 THB tube
+  four ways is 75 THB per player — cheaper than a coffee.
+- **Open the tube at the court, not at home.** Pressure leaks the
+  moment the seal is broken.
+- **Don&apos;t mix old and new balls** in the same match — the bounce
+  difference shows up on long lobs.
+
+> Want to know where to play next? Read our
+> [Bangkok padel courts ranking](/courts) and the
+> [best padel clubs in Bangkok guide](/blog/best-padel-clubs-bangkok).
+> Or ask in the
+> [Bangkok Padel Community Facebook group](https://web.facebook.com/groups/bangkok.padel.community)
+> — someone is always heading to a court.
+`;
+
+const ballsTh = `
+## ลูกพาเดิลในประเทศไทย: ราคาและซื้อยี่ห้อไหนดี (ปี 2026)
+
+ลูกพาเดิล 1 หลอดในกรุงเทพราคา **200–350 บาท** สำหรับแบรนด์หลัก
+ค่า Americano คลับส่วนใหญ่รวมลูกอยู่แล้ว ดังนั้นจะซื้อเองก็ต่อเมื่อ
+เริ่มจองคอร์ทส่วนตัว บทความนี้เปรียบเทียบแบรนด์ที่หาได้ในไทย ราคาจริง
+และจุดซื้อแบบไม่เสียค่าโนนำเข้า
+
+> **สรุปสั้น ๆ** สำหรับผู้เล่นทั่วไปในกรุงเทพ **Head Padel Pro S+**
+> หลอดละ ~300 บาทที่ No Drama Padel คือตัวเลือกหลัก โปรและผู้เล่น
+> ระดับ 3.5+ ใช้ **Bullpadel Premium Pro** ส่วน Wilson และ Babolat
+> เป็นทางเลือกที่ดีในราคาถูกกว่าเล็กน้อย ราคาเป็นข้อมูลกลางปี 2026
+
+## เปรียบเทียบราคาลูกพาเดิลในไทย
+
+| ลูก | ราคา/หลอด (บาท) | ซื้อที่ไหน | เหมาะกับ |
+| --- | --- | --- | --- |
+| Head Padel Pro S+ | ~300 (No Drama) | No Drama, Padel Racket TH, Decathlon | ใช้ทั่วไป ลูก WPT |
+| Head Padel Pro | ~280–320 | The Padel Co., Lazada | ฤดูหนาวกลางแจ้ง |
+| Bullpadel Premium Pro | ~320–380 | Bullpadel Asia, No Drama | ทัวร์นาเมนต์ คอร์ทไว |
+| Wilson X3 | ~250–300 | Wilson Thailand, Lazada | ซ้อม สังคม |
+| Babolat Tour | ~280–320 | Padel Racket TH, Lazada | ฤดูหนาว อายุยาว |
+| Decathlon Artengo PB 990 | ~199–249 | Decathlon TH | Drill มือใหม่ |
+
+99% หลอดละ **3 ลูก** ระวัง list ต่างประเทศบางเจ้าใส่ 4 ลูก
+ทำให้ราคาต่อลูกดูถูกผิดจริง
+
+## ทำไมลูกที่เลือกสำคัญมากในกรุงเทพ
+
+ลูกพาเดิลมีแรงดัน เมื่อแรงดันลดความเร็วก็ลด ในกรุงเทพ:
+
+1. **ลูกหมดแรงเร็วขึ้น** ถ้าเก็บในรถร้อนหรือกระเป๋าชื้น หลอดที่เปิด
+   ในเดือนมีนาคมจะรู้สึกตายเร็วกว่าหลอดที่เปิดในมกราคม 2 สัปดาห์
+2. **ลูกไว (Pro S+) เหมาะกับคอร์ทในร่มในกรุงเทพ** ส่วนลูกช้า (Pro Slow)
+   เหมาะกับคอร์ทกลางแจ้งที่เร็วมาก ซึ่งในเมืองมีน้อย
+3. **ระดับความสูงไม่ใช่ประเด็น** กรุงเทพอยู่ระดับน้ำทะเล ลูกพิเศษ
+   "Altitude" ไม่จำเป็นสำหรับทั่วประเทศไทยฝั่งกลางและตะวันออก
+
+ถ้าเล่นสัปดาห์ละ 2–3 ครั้ง คาดว่าเปิดหลอดใหม่ทุก 2–3 ครั้งสำหรับ
+แมตช์ และทุก 4–6 ครั้งสำหรับ Drill
+
+## ซื้อลูกพาเดิลในกรุงเทพได้ที่ไหน
+
+- **No Drama Padel** — Head Padel Pro S+ 300 บาท ยืนยันกลางปี 2026
+  เดินซื้อก่อนเรียนได้
+- **Padel Racket Thailand** (padelracket.in.th) — มี Head, Babolat,
+  Bullpadel ครบ ส่งทั่วประเทศ
+- **The Padel Co.** — อ่อนนุช แบรนด์คัดมา จองคอร์ทผ่าน Playtomic
+  แล้วซื้อในที่
+- **Bullpadel Asia** — สโตร์ภูมิภาค Premium Pro ส่งจากสิงคโปร์ ถึง
+  กรุงเทพ 3–5 วัน
+- **Wilson Thailand** (th.wilson.com) — ส่งฟรีเมื่อยอดเกิน 4,000 บาท
+- **Decathlon Thailand** — Artengo PB 990 ตัวเลือกประหยัด เหมาะกับ
+  Drill และมือใหม่
+- **Lazada / Shopee** — ส่งเร็วสุด แต่เช็คเรตติ้งร้าน ลูกพาเดิล
+  มีของปลอมเยอะ
+
+## ลูกทัวร์นาเมนต์ vs ลูกซ้อม
+
+คลับในกรุงเทพส่วนใหญ่ใช้ **Head Padel Pro S+** สำหรับลีกประจำสัปดาห์
+และ **Bullpadel Premium Pro** สำหรับทัวร์นาเมนต์ทางการ (รุ่นเดียวกับ
+ที่ใช้ในรายการ Cupra FIP Tour Thailand ที่สมุยและพะงัน) ถ้าตี
+ส่วนตัวระดับ 3.0–3.5 Head Pro S+ พอเหลือเฟือ และถูกกว่า Bullpadel
+80 บาท
+
+## ลูกพาเดิลใช้ได้กี่ชั่วโมง?
+
+หลอดใหม่ 3 ลูกเป็นเกรดการแข่ง **ประมาณ 3–4 ชั่วโมง** ของการตีเข้ม ๆ
+หลังจากนั้นการกระดอนตกชัดเจน ผู้เล่นในกรุงเทพมักจะ:
+
+- ใช้หลอดใหม่สำหรับแมตช์สำคัญหรือซ้อมก่อนทัวร์นาเมนต์
+- ลดเกรดลูกเก่าเป็น Drill วอร์มอัพ หรือซ้อมกำแพง
+- รีไซเคิลลูกตายเป็นของเล่นสุนัข — หลายคลับมีถัง "ลูกตายฟรี"
+  ใกล้เคาน์เตอร์
+
+## มารยาทเรื่องลูกพาเดิลในกรุงเทพ
+
+- **เอาลูกใหม่ไปแมตช์ส่วนตัว** หาร 4 จาก 300 บาท = 75 บาท/คน
+  ถูกกว่ากาแฟ
+- **เปิดหลอดที่คอร์ท ไม่ใช่ที่บ้าน** แรงดันรั่วทันทีที่ฉีกฟอยล์
+- **อย่าผสมลูกเก่ากับใหม่** ในแมตช์เดียวกัน การกระดอนต่างกันชัดเจน
+  ตอนลอบยาว
+
+> อยากรู้คอร์ทเด็ด? อ่าน
+> [อันดับคอร์ทพาเดิลในกรุงเทพ](/th/courts) และ
+> [คลับพาเดิลที่ดีที่สุดในกรุงเทพ](/th/blog/best-padel-clubs-bangkok)
+> หรือถามในกลุ่ม
+> [Bangkok Padel Community](https://web.facebook.com/groups/bangkok.padel.community)
+> มีคนกำลังจะไปคอร์ทเสมอ
+`;
+
+/* ────────────────────────────────────────────────────────────────────────── */
+/*  Post — Cupra FIP Tour Thailand 2026 Guide                                 */
+/* ────────────────────────────────────────────────────────────────────────── */
+
+const fipTourEn = `
+## Cupra FIP Tour Thailand 2026: the guide for Bangkok players
+
+Thailand hosted **two Cupra FIP Tour events in May 2026**, both on the
+gulf islands. They are the highest-tier sanctioned padel tournaments
+ever played on Thai soil. This guide is for Bangkok-based players who
+want to enter, spectate or just understand how the international padel
+pyramid works.
+
+> **At a glance.**
+> - **FIP Bronze Samui** — 6–10 May 2026 (concluded; Spanish pairs
+>   took both finals).
+> - **FIP Bronze Phangan** — 14–17 May 2026 (Koh Phangan).
+> - **Premier Padel 2026 calendar:** no Thailand stop confirmed.
+> - **Ranking points:** FIP Bronze awards points toward the global
+>   FIP / Premier Padel ranking.
+
+## Confirmed Thailand 2026 events
+
+### FIP Bronze Samui — 6–10 May 2026
+
+Played on Koh Samui in early May. The women&apos;s final went to the
+Spanish pair Alba Gallardo / Alba Perez; the men&apos;s final went to
+Luque / Caiano. Both pairs continued to Phangan the following week. The
+event was organised under the FIP Bronze format (smallest prize pool
+on the tour, but full sanctioning and ranking points).
+
+### FIP Bronze Phangan — 14–17 May 2026
+
+Held on Koh Phangan a week after Samui. The Phangan stop is the second
+half of a "Thai swing" on the Cupra FIP Tour and used the same
+qualification pathway as Samui.
+
+For full draw, scores and entry lists, the source of truth is
+[padelfip.com](https://www.padelfip.com/calendar-cupra-fip-tour/) — the
+calendar is updated as draws confirm.
+
+## How the international padel pyramid works
+
+There are two main international circuits:
+
+1. **Premier Padel** — the top global tour, owned partly by the FIP and
+   the World Padel Tour&apos;s successor structure. **No Thailand stop on
+   the 2026 calendar** (26 events across 18 countries; closest Asian
+   stops have been Qatar and the UAE in recent seasons).
+2. **Cupra FIP Tour** — the sanctioned development tour beneath
+   Premier Padel. Three tiers: **Bronze (lowest), Silver, Gold**. Points
+   from FIP Tour events count toward the global FIP ranking, which feeds
+   the Premier Padel cut.
+
+Both Thailand 2026 events were **FIP Bronze**. A Thai player who reaches
+the main draw of a Bronze earns enough points to start showing up in
+the global FIP ranking — the first step toward Premier Padel
+qualification rounds.
+
+## How a Bangkok player can enter
+
+1. **Register with the Thailand Padel Association (TPA).** TPA handles
+   national rankings via Rankedin and coordinates tryouts and entries
+   for international events. Contact:
+   thailandpadelassociation@gmail.com or +66 89 176 3767.
+2. **Build a Rankedin profile.** Cupra FIP Tour entries are seeded off
+   Rankedin and FIP ranking points. Play in TPA-sanctioned events to
+   accumulate domestic points first.
+3. **Pair with a partner of similar level.** FIP Bronze is open but
+   entries are seeded — pairs with no points play qualifying rounds the
+   week before the main draw.
+4. **Plan the logistics.** Both 2026 events were on islands. Flights to
+   Samui (USM) or to Surat Thani for Phangan, plus 3–5 nights
+   accommodation. Budget 25,000–40,000 THB per player including travel,
+   accommodation and entry.
+
+## Spectating: more realistic for most Bangkok players
+
+The Bronze events are intimate. Court-side seats are usually free or
+under 500 THB, and the smaller venue means you can watch warm-ups and
+chat to players. For Bangkok-based fans, the Phangan stop in particular
+is a long weekend with elite padel attached — pair the trip with the
+Saturday market or a long-tail boat ride.
+
+## Other regional events Bangkok players can travel to
+
+If 2026 is your year, look beyond Thailand. The 2025–2026 FIP Tour
+calendar included several SEA-region events:
+
+- FIP Bronze Kuala Lumpur (April 2026)
+- FIP Silver Kuala Lumpur (April 2026)
+- FIP Bronze Selangor (June 2026)
+- FIP Bronze Yogyakarta (May 2026)
+- Multiple FIP Bronze stops in Indonesia (July 2026)
+
+KL is two hours from BKK on AirAsia and an easy weekend trip with a
+training partner. Always confirm dates with
+[padelfip.com](https://www.padelfip.com/calendar-cupra-fip-tour/) — the
+2026 calendar continued to evolve as we published.
+
+## What about the Thai Padel Series?
+
+The **Thai Padel Series (TPS)** is the domestic circuit. The 2026
+calendar lists nine events including Hua Hin Open (January), Chiang
+Mai Open (February), Koh Samui Grand Slam (March), Bangkok stop (June)
+and Bangkok Finals (December). TPS is the most accessible competitive
+ladder for Bangkok players — no flights, lower entry fees and the
+ranking that TPA uses to seed national teams.
+
+See the full TPS calendar at thaipadelseries.com.
+
+## Cool, hot or rainy? Tournament timing in Bangkok
+
+If you&apos;re organising training around domestic and international
+tournaments, our
+[Bangkok padel season guide](/blog/bangkok-padel-season-guide) breaks
+down when each part of the country is playable. Most Bangkok-based
+clubs run open-court tournaments year-round; the international FIP
+swing tends to favour cool-to-shoulder season (November–May) when the
+islands are dry.
+
+> Planning to enter? Tell the
+> [Bangkok Padel Community Facebook group](https://web.facebook.com/groups/bangkok.padel.community)
+> — pairing up with a Bangkok-based partner is the fastest way to
+> share travel costs and split prep matches.
+`;
+
+const fipTourTh = `
+## Cupra FIP Tour Thailand 2026: คู่มือสำหรับผู้เล่นในกรุงเทพ
+
+ประเทศไทยจัด **รายการ Cupra FIP Tour 2 รายการในเดือนพฤษภาคม 2026**
+ทั้งคู่จัดที่เกาะในอ่าวไทย ทั้งสองรายการเป็นรายการพาเดิลทางการระดับ
+นานาชาติที่จัดในไทยที่ใหญ่ที่สุดเท่าที่เคยมี บทความนี้สำหรับผู้เล่น
+ในกรุงเทพที่อยากลงแข่ง ไปเชียร์ หรือเข้าใจระบบพาเดิลนานาชาติ
+
+> **ภาพรวม**
+> - **FIP Bronze สมุย** — 6–10 พ.ค. 2026 (จบแล้ว ทีมสเปนคว้าแชมป์
+>   ทั้งชายและหญิง)
+> - **FIP Bronze พะงัน** — 14–17 พ.ค. 2026
+> - **Premier Padel 2026:** ไม่มีรายการที่ไทย
+> - **คะแนนแรงค์:** FIP Bronze ให้คะแนนเข้าสู่แรงค์โลก FIP / Premier
+>   Padel
+
+## รายการที่ยืนยันจัดในไทยปี 2026
+
+### FIP Bronze สมุย — 6–10 พ.ค. 2026
+
+จัดที่เกาะสมุยต้นเดือนพฤษภาคม ประเภทหญิงคู่ Alba Gallardo / Alba Perez
+(สเปน) ชนะ ส่วนชายคู่ Luque / Caiano คว้าแชมป์ ทั้งสองคู่เดินทางต่อไป
+แข่งที่พะงันสัปดาห์ถัดมา จัดในรูปแบบ FIP Bronze (เงินรางวัลน้อยที่สุด
+ในทัวร์ แต่มีสถานะทางการเต็มและให้คะแนน)
+
+### FIP Bronze พะงัน — 14–17 พ.ค. 2026
+
+จัดที่เกาะพะงันหลังสมุย 1 สัปดาห์ เป็นครึ่งหลังของ "Thai swing"
+ในทัวร์ Cupra FIP ใช้เส้นทาง qualification เหมือนสมุย
+
+ข้อมูลผู้เข้าแข่งและผลล่าสุดดูที่
+[padelfip.com](https://www.padelfip.com/calendar-cupra-fip-tour/)
+
+## ระบบพาเดิลนานาชาติทำงานอย่างไร
+
+มีทัวร์หลัก 2 ระดับ:
+
+1. **Premier Padel** — ทัวร์โลกระดับสูงสุด เป็นผู้สืบทอด World Padel
+   Tour **ไม่มีรายการที่ไทยในปี 2026** (26 รายการ 18 ประเทศ ใกล้สุด
+   ในเอเชียคือกาตาร์และยูเออี)
+2. **Cupra FIP Tour** — ทัวร์พัฒนาทางการอยู่ใต้ Premier Padel มี 3
+   ระดับ: **Bronze (เล็กสุด), Silver, Gold** คะแนนจาก FIP Tour นับเข้า
+   แรงค์โลก FIP ซึ่งใช้เลือกผู้เล่นเข้า Premier Padel
+
+ทั้งสองรายการที่ไทยปี 2026 เป็น **FIP Bronze** ผู้เล่นไทยที่เข้า
+สาย Main Draw จะได้คะแนนพอเริ่มมีแรงค์โลก FIP — ก้าวแรกสู่การ
+qualify Premier Padel
+
+## ผู้เล่นในกรุงเทพสมัครได้อย่างไร
+
+1. **สมัครกับสมาคมพาเดิลแห่งประเทศไทย (TPA)** TPA ดูแลแรงค์ระดับชาติ
+   ผ่าน Rankedin และคัดทีมเข้าแข่งระดับนานาชาติ ติดต่อ
+   thailandpadelassociation@gmail.com หรือ +66 89 176 3767
+2. **สร้างโปรไฟล์ Rankedin** Cupra FIP Tour จัดสายจากคะแนน Rankedin
+   และ FIP ranking ลงแข่งรายการ TPA ก่อนเพื่อเก็บคะแนนในประเทศ
+3. **หาคู่ระดับใกล้กัน** FIP Bronze เปิดรับ แต่จัดสายตามแรงค์ คู่ที่
+   ไม่มีคะแนนต้องเล่นรอบ qualifying ก่อนหน้า Main Draw 1 สัปดาห์
+4. **วางแผน Logistics** ทั้ง 2 รายการจัดที่เกาะ ตั๋วบินไปสมุย (USM)
+   หรือสุราษฎร์ฯ ต่อพะงัน รวมที่พัก 3–5 คืน งบประมาณ 25,000–40,000
+   บาท/คน รวมเดินทาง ที่พัก และค่าสมัคร
+
+## ไปเชียร์: น่าจะเป็นไปได้กว่าสำหรับคนกรุงเทพส่วนใหญ่
+
+รายการ Bronze จัดเล็ก ที่นั่งติดคอร์ทมักฟรีหรือไม่เกิน 500 บาท
+สถานที่เล็กทำให้ดูวอร์มและคุยกับนักกีฬาได้ สำหรับแฟนในกรุงเทพ
+พะงันโดยเฉพาะเหมาะกับลองวีคเอนด์ ผสมตลาดสุดสัปดาห์หรือเรือหางยาว
+
+## รายการในภูมิภาคที่ผู้เล่นกรุงเทพไปได้
+
+ถ้า 2026 คือปีของคุณ อย่าหยุดแค่ไทย ปฏิทิน 2025–2026 FIP Tour รวม:
+
+- FIP Bronze Kuala Lumpur (เม.ย. 2026)
+- FIP Silver Kuala Lumpur (เม.ย. 2026)
+- FIP Bronze Selangor (มิ.ย. 2026)
+- FIP Bronze Yogyakarta (พ.ค. 2026)
+- FIP Bronze หลายรายการในอินโดนีเซีย (ก.ค. 2026)
+
+KL บินจาก BKK 2 ชั่วโมง AirAsia เหมาะเป็นวีคเอนด์กับคู่ซ้อม
+เช็ควันที่กับ [padelfip.com](https://www.padelfip.com/calendar-cupra-fip-tour/)
+เพราะปฏิทิน 2026 ยังอัพเดทต่อเนื่อง
+
+## แล้ว Thai Padel Series ล่ะ?
+
+**Thai Padel Series (TPS)** คือทัวร์ในประเทศ ปฏิทิน 2026 มี 9 รายการ
+รวมหัวหินโอเพ่น (ม.ค.) เชียงใหม่โอเพ่น (ก.พ.) เกาะสมุยแกรนด์สแลม
+(มี.ค.) กรุงเทพ (มิ.ย.) และไฟนอลกรุงเทพ (ธ.ค.) TPS เป็นบันไดแข่งขัน
+ที่เข้าถึงได้ง่ายสุดสำหรับผู้เล่นในกรุงเทพ ไม่ต้องบิน ค่าสมัครถูก
+และเป็นคะแนนที่ TPA ใช้คัดทีมชาติ
+
+ดูปฏิทิน TPS ที่ thaipadelseries.com
+
+## ฤดูไหนเหมาะ?
+
+ถ้าจัดตารางซ้อมรอบทัวร์นาเมนต์
+[ไกด์ฤดูพาเดิลกรุงเทพ](/th/blog/bangkok-padel-season-guide)
+อธิบายว่าฤดูไหนที่ไหนตีได้ คลับในกรุงเทพส่วนใหญ่จัดทัวร์ Open Court
+ตลอดปี ส่วน FIP Swing นานาชาติชอบช่วง พ.ย.–พ.ค. ตอนเกาะแห้ง
+
+> วางแผนลงแข่ง? บอกในกลุ่ม
+> [Bangkok Padel Community](https://web.facebook.com/groups/bangkok.padel.community)
+> — หาคู่ในกรุงเทพช่วยแชร์ค่าเดินทางและซ้อมก่อนแข่ง
+`;
+
+/* ────────────────────────────────────────────────────────────────────────── */
+/*  Post — Americano vs Mexicano Padel Format Guide (Bangkok)                 */
+/* ────────────────────────────────────────────────────────────────────────── */
+
+const americanoEn = `
+## Americano vs Mexicano padel in Bangkok: which format is which?
+
+If you&apos;ve been around Bangkok padel for more than a couple of weeks,
+you&apos;ve seen the words **Americano** and **Mexicano** on club
+calendars. They&apos;re both rotating-doubles tournament formats designed
+for mixed-level social play. They sound similar — and they are — but
+the difference matters once you&apos;re past your first night.
+
+> **TL;DR.** Both formats rotate partners every round and score
+> individually. The difference is **how you&apos;re paired next round**.
+> Americano = random or sequential pairing. Mexicano = paired by score
+> (winners with winners, losers with losers). Mexicano gets harder as
+> the night goes on; Americano stays mixed.
+
+## Americano vs Mexicano: side-by-side
+
+| | Americano | Mexicano |
+| --- | --- | --- |
+| Pairing logic | Random / sequential | Re-paired by score after each round |
+| Match length | Fixed (16, 24, or 32 ball matches) | Fixed (same) |
+| Skill match | Mixed all night | Tightens — top players meet top players |
+| Best for | Mixed-level social, beginners welcome | Competitive evening, similar levels |
+| Cost in Bangkok | ~400–800 THB / player | ~500–1,000 THB / player |
+| How long | 90–120 minutes | 90–120 minutes |
+| Result | Highest individual score wins | Highest individual score wins |
+
+## How Americano scoring works
+
+Forget set/game scoring. In an Americano, you play **points-per-rally**
+within a fixed time or ball budget per match.
+
+- A typical Bangkok Americano uses **16-ball or 24-ball matches**.
+- Each ball is worth **one point**.
+- Your partner changes every match, but your individual score follows
+  you through the night.
+- The player with the most personal points after all matches wins.
+
+**Example.** An eight-player Americano at Bangkok Padel runs seven
+rounds of 16-ball matches. You&apos;re paired with a different partner
+each round. If your team scores 11 of 16 balls in round 1, you each
+add 11 to your personal totals. Highest score at the end takes the
+top prize (usually a tube of balls or a small voucher).
+
+## How Mexicano differs
+
+Mexicano starts identically — same partner-rotation principle, same
+ball-budget scoring. The difference kicks in **after round 1**:
+
+- The two players who scored highest in round 1 are paired against the
+  next-two highest. Same for the bottom of the table.
+- After round 2, re-rank everyone again. Round 3 pairs by current rank.
+- And so on, every round.
+
+The result: the top of the field plays the top, the middle plays the
+middle, and the bottom plays the bottom — by the final round. The
+matches get tighter, and there&apos;s a clear "court 1 final" feel by
+the last match. Most coaches prefer Mexicano for competitive league
+nights; most clubs run Americano for beginner-friendly socials.
+
+## Where to play Americano in Bangkok
+
+Almost every Bangkok club runs at least one weekly Americano:
+
+- **Kross Padel On Nut** — flagship of the Kross brand; regular evening
+  Americanos plus occasional themed nights. Pool, ice bath and sauna
+  on site for the after-game.
+- **Pad Thai Padel** — three courts (two indoor, one outdoor) near
+  Thonglor BTS. The Bangkok Americano with the busiest calendar — runs
+  multiple per week including mixed and ladies-only nights.
+- **Bel Club 22** — 1938 Phetchaburi Rd. Three courts, lush garden,
+  food and drinks on site. Floodlit evening Americanos book out fast.
+- **Padel Asia** — Ratchada 18. Long-running Americano programme,
+  beginner-friendly, mid-level Mexicanos also offered.
+- **Bangkok Padel (Ambassador rooftop)** — two panoramic courts at the
+  Ambassador Hotel. Smaller social events, books via Matchi.
+- **The Padel Co.** — On Nut. Booked via Playtomic; check the events
+  tab for socials.
+- **No Drama Padel** — community-first vibe; mix of socials and
+  coaching sessions, on-site shop for emergencies.
+
+Check the Facebook group or each club&apos;s app a week before your
+target night — Bangkok Americanos book out 3–5 days ahead in peak
+season.
+
+## How to win your first Americano
+
+1. **Track your own score on paper.** Most Bangkok organisers run a
+   shared sheet at the desk, but a personal tally protects against
+   confusion at the end.
+2. **Communicate with every new partner** for 30 seconds before the
+   first ball: who serves first, who takes lobs, what side. Most
+   Americano mistakes are coordination, not skill.
+3. **Pick the cross-court shot.** In short matches, the long diagonal
+   wins more rallies than dramatic winners. Patience > power.
+4. **Stay positive after each ball.** You play with this person for
+   only 16 balls; don&apos;t spend half of them apologising.
+5. **Bring sweat management.** Wristbands, a fresh
+   [overgrip](/blog/padel-overgrip-bangkok-humidity-guide), and a small
+   towel keep your evening on the rails. Bangkok humidity has ended
+   more nights than missed shots.
+
+## Cost expectations in Bangkok
+
+A typical Bangkok Americano costs **400–800 THB per player**. The fee
+covers:
+
+- Two hours of court time
+- Fresh balls (usually Head Padel Pro S+)
+- A small prize for the top scorer
+- Sometimes a soft drink or beer voucher at the bar
+
+Compare to a private 90-minute booking split four ways at ~350 THB
+per person, and the Americano is excellent value — you get coaching-
+adjacent variety with new partners and structured rounds.
+
+## Mexicano in Bangkok: rarer but growing
+
+Mexicano nights are less common in Bangkok and tend to be invited or
+level-gated. **Padel Asia** and **Pad Thai Padel** run periodic Mexicano
+formats for 3.0+ players. If you&apos;re hunting for one, post your
+level in the
+[Bangkok Padel Community Facebook group](https://web.facebook.com/groups/bangkok.padel.community)
+— organisers regularly recruit there.
+
+## Beyond Americano: getting into real tournaments
+
+Once you&apos;re finishing in the top half of your Americanos, your next
+step is the **Thai Padel Series** (domestic) or the **Cupra FIP Tour**
+events when they return to Thailand. Both are covered in our
+[Cupra FIP Tour Thailand 2026 guide](/blog/fip-tour-thailand-2026-guide).
+
+If you&apos;re still picking your first racket or finalising your kit,
+read the
+[Bangkok padel racket buying guide](/blog/padel-racket-buying-guide-bangkok)
+and the
+[play padel in Bangkok quick-start guide](/blog/play-padel-bangkok)
+before booking.
+
+> Looking for an Americano this week? Post your area, your level and
+> your dates in the
+> [Bangkok Padel Community Facebook group](https://web.facebook.com/groups/bangkok.padel.community)
+> — organisers always have a spot or two.
+`;
+
+const americanoTh = `
+## Americano vs Mexicano พาเดิลในกรุงเทพ: ต่างกันยังไง?
+
+ถ้าอยู่ในวงการพาเดิลกรุงเทพมาเกิน 2 สัปดาห์ คุณจะเจอคำว่า
+**Americano** และ **Mexicano** บนปฏิทินคลับ ทั้งคู่เป็นรูปแบบ
+ทัวร์นาเมนต์หมุนคู่สำหรับเล่นสังคมแบบผสมระดับ ฟังคล้าย ๆ กัน —
+จริง ๆ ก็คล้าย — แต่ความต่างสำคัญถ้าผ่านคืนแรกไปแล้ว
+
+> **สรุปสั้น ๆ** ทั้งคู่หมุนคู่ทุกรอบและคิดคะแนนรายบุคคล ต่างกันที่
+> **วิธีจับคู่รอบถัดไป** Americano = สุ่มหรือลำดับ Mexicano =
+> จับคู่ตามคะแนน (ผู้ชนะเจอผู้ชนะ ผู้แพ้เจอผู้แพ้) Mexicano แมตช์
+> ตึงขึ้นเรื่อย ๆ Americano ผสมตลอด
+
+## Americano vs Mexicano เปรียบเทียบ
+
+| | Americano | Mexicano |
+| --- | --- | --- |
+| วิธีจับคู่ | สุ่ม / ลำดับ | จับคู่ใหม่ตามคะแนนทุกรอบ |
+| ความยาวแมตช์ | คงที่ (16, 24, 32 ลูก) | คงที่ (เหมือนกัน) |
+| ระดับฝีมือ | ผสมตลอดคืน | ตึงขึ้น — เก่งเจอเก่ง |
+| เหมาะกับ | สังคมผสม มือใหม่ก็เล่นได้ | คืนแข่งจริง ระดับใกล้กัน |
+| ค่าใช้จ่ายในกรุงเทพ | ~400–800 บาท/คน | ~500–1,000 บาท/คน |
+| เวลา | 90–120 นาที | 90–120 นาที |
+| ผู้ชนะ | คะแนนรายบุคคลสูงสุด | คะแนนรายบุคคลสูงสุด |
+
+## วิธีคิดคะแนน Americano
+
+ลืมเซต/เกมไปก่อน Americano เล่น **คะแนนต่อแรลลี่** ในเวลาหรือจำนวน
+ลูกที่กำหนดต่อแมตช์
+
+- Americano ในกรุงเทพปกติใช้ **16 ลูก หรือ 24 ลูก / แมตช์**
+- แต่ละลูก = **1 คะแนน**
+- คู่เปลี่ยนทุกแมตช์ แต่คะแนนตัวเองสะสมต่อ
+- คนที่คะแนนสะสมสูงสุดเมื่อจบทุกแมตช์ = ผู้ชนะ
+
+**ตัวอย่าง** Americano 8 คนที่ Bangkok Padel แข่ง 7 รอบ รอบละ 16 ลูก
+คู่เปลี่ยนทุกรอบ ถ้าคู่คุณทำได้ 11/16 ในรอบ 1 คุณ 2 คนได้ 11
+คะแนนเข้าตัวเอง สิ้นสุดคืนคะแนนสูงสุดได้รางวัล (มักเป็นหลอดลูก
+หรือ Voucher)
+
+## Mexicano ต่างยังไง
+
+Mexicano เริ่มเหมือนกัน หมุนคู่และคิดคะแนนตามลูกเหมือนกัน ความต่าง
+เริ่ม **หลังรอบที่ 1**:
+
+- 2 คนคะแนนสูงสุดในรอบ 1 จับคู่เจอ 2 คนคะแนนรอง คล้ายกันกับท้ายตาราง
+- หลังรอบ 2 จัดอันดับใหม่ทั้งหมด รอบ 3 จับคู่ตามอันดับล่าสุด
+- ทำซ้ำทุกรอบ
+
+ผลที่ได้: ท้ายคืนคนเก่งเจอคนเก่ง คนกลางเจอคนกลาง แมตช์ตึงขึ้นเรื่อย ๆ
+มีบรรยากาศ "Court 1 Final" ในแมตช์สุดท้ายชัดเจน โค้ชส่วนใหญ่ชอบ
+Mexicano สำหรับลีกแข่งจริง คลับส่วนใหญ่จัด Americano สำหรับสังคม
+มือใหม่
+
+## ตี Americano ในกรุงเทพได้ที่ไหน
+
+เกือบทุกคลับในกรุงเทพมี Americano อย่างน้อยสัปดาห์ละ 1 ครั้ง:
+
+- **Kross Padel On Nut** — แฟลกชิป จัด Americano เย็นประจำ บางครั้ง
+  มีธีมพิเศษ สระว่ายน้ำ ห้องน้ำแข็ง ซาวน่าหลังตี
+- **Pad Thai Padel** — 3 คอร์ท (อินดอร์ 2 เอาท์ดอร์ 1) ใกล้ BTS
+  ทองหล่อ ปฏิทิน Americano คึกที่สุดในกรุงเทพ มีหลายวันรวม Ladies Night
+- **Bel Club 22** — เพชรบุรี 1938 3 คอร์ทท่ามกลางสวน อาหารและ
+  เครื่องดื่มในคลับ Americano คอร์ทไฟเย็นเต็มเร็ว
+- **Padel Asia** — รัชดา 18 คลับ Americano เก่าแก่ มือใหม่ก็เล่นได้
+  มี Mexicano สำหรับระดับกลาง
+- **Bangkok Padel (รูฟท็อป Ambassador)** — 2 คอร์ทพาโนรามาที่
+  Ambassador Hotel อีเวนต์สังคมเล็ก ๆ จองผ่าน Matchi
+- **The Padel Co.** — อ่อนนุช จองผ่าน Playtomic ดูแท็บอีเวนต์
+- **No Drama Padel** — บรรยากาศคอมมูนิตี้ ผสมสังคมและเรียน มีร้านขาย
+  อุปกรณ์ฉุกเฉิน
+
+เช็คกลุ่ม Facebook หรือแอปคลับล่วงหน้า 1 สัปดาห์ Americano ในกรุงเทพ
+มักเต็มก่อน 3–5 วันในช่วง Peak
+
+## เคล็ดลับชนะ Americano ครั้งแรก
+
+1. **จดคะแนนตัวเองไว้** ผู้จัดส่วนใหญ่ใช้กระดาษกลาง แต่จดของตัวเอง
+   ช่วยตอนสรุปท้ายคืน
+2. **คุยกับคู่ใหม่ 30 วินาที** ก่อนลูกแรก: ใครเสิร์ฟก่อน ใครรับลอบ
+   ใครฝั่งไหน ผิดพลาดส่วนใหญ่ของ Americano คือการประสานกัน ไม่ใช่ฝีมือ
+3. **เลือกลูกครอสคอร์ท** ในแมตช์สั้น Diagonal ยาวชนะแรลลี่บ่อยกว่า
+   Winner หล่อ ๆ ความอดทน > พลัง
+4. **คงบวกหลังทุกลูก** คุณตีกับคนนี้แค่ 16 ลูก อย่าใช้ครึ่งหนึ่งไปขอโทษ
+5. **จัดการเหงื่อ** ริสต์แบนด์
+   [โอเวอร์กริปใหม่](/th/blog/padel-overgrip-bangkok-humidity-guide)
+   และผ้าเช็ดเล็ก ๆ ทำให้คืนของคุณราบรื่น ความชื้นกรุงเทพจบคืนได้มาก
+   กว่าลูกพลาด
+
+## ค่าใช้จ่ายในกรุงเทพ
+
+Americano ทั่วไปในกรุงเทพ **400–800 บาท/คน** รวม:
+
+- คอร์ท 2 ชั่วโมง
+- ลูกใหม่ (มักเป็น Head Padel Pro S+)
+- รางวัลเล็ก ๆ สำหรับคะแนนสูงสุด
+- บางครั้งเครื่องดื่มหรือเบียร์ Voucher 1 แก้ว
+
+เทียบกับจองคอร์ทส่วนตัว 90 นาที หาร 4 ที่ ~350 บาท/คน Americano
+คุ้มมาก ได้ความหลากหลายและคู่ใหม่ ๆ พร้อมโครงสร้างการเล่น
+
+## Mexicano ในกรุงเทพ
+
+Mexicano ในกรุงเทพยังน้อยและมักเป็น Invite หรือคัดระดับ **Padel Asia**
+และ **Pad Thai Padel** จัด Mexicano เป็นช่วง ๆ สำหรับ 3.0+ ถ้ามองหา
+อยู่ ลองโพสต์ระดับในกลุ่ม
+[Bangkok Padel Community](https://web.facebook.com/groups/bangkok.padel.community)
+ผู้จัดมักหาผู้เล่นที่นั่น
+
+## ก้าวต่อไป: ทัวร์นาเมนต์จริง
+
+พอจบ Americano ในครึ่งบนของตารางได้บ่อย ขั้นถัดไปคือ **Thai Padel
+Series** ในประเทศ หรือ **Cupra FIP Tour** ตอนกลับมาที่ไทย อ่านต่อ
+[คู่มือ Cupra FIP Tour Thailand 2026](/th/blog/fip-tour-thailand-2026-guide)
+
+ถ้ายังเลือกไม้แรกอยู่ หรือต้องอัพเกรดอุปกรณ์
+[คู่มือเลือกไม้พาเดิลกรุงเทพ](/th/blog/padel-racket-buying-guide-bangkok)
+และ
+[ไกด์เริ่มต้นพาเดิลกรุงเทพ](/th/blog/play-padel-bangkok)
+ก่อนจอง
+
+> หา Americano สัปดาห์นี้? โพสต์โซน ระดับ และวันที่ในกลุ่ม
+> [Bangkok Padel Community](https://web.facebook.com/groups/bangkok.padel.community)
+> ผู้จัดมีที่ว่าง 1–2 ที่เสมอ
+`;
+
 export const posts: Post[] = [
+  {
+    slug: "padel-overgrip-bangkok-humidity-guide",
+    date: "2026-05-23",
+    readMinutes: 7,
+    title: {
+      en: "Best Padel Overgrips for Bangkok's Humidity (2026 Buyer's Guide)",
+      th: "โอเวอร์กริปพาเดิลที่เหมาะกับอากาศชื้นกรุงเทพ (คู่มือซื้อ ปี 2026)",
+    },
+    excerpt: {
+      en: "4ON, Bullpadel Gel Dry, Wilson Pro, Tourna — which padel overgrip survives 32°C Bangkok sweat? Local THB prices, where to buy and how often to change.",
+      th: "4ON, Bullpadel Gel Dry, Wilson Pro, Tourna — โอเวอร์กริปไหนทนเหงื่อกรุงเทพ 32°C? ราคาบาท จุดซื้อ และความถี่ในการเปลี่ยน",
+    },
+    keywords: {
+      en: [
+        "padel overgrip Bangkok",
+        "best padel overgrip humid weather",
+        "padel grip Thailand",
+        "Bullpadel Gel Dry Bangkok",
+        "Wilson Pro overgrip Thailand",
+        "4ON Premium overgrip",
+        "padel overgrip price THB",
+      ],
+      th: [
+        "โอเวอร์กริปพาเดิล กรุงเทพ",
+        "กริปพาเดิล อากาศชื้น",
+        "ผ้าพันไม้พาเดิล ไทย",
+        "Bullpadel Gel Dry",
+        "Wilson Pro กริป",
+        "4ON Premium กริป",
+        "ราคา โอเวอร์กริป บาท",
+      ],
+    },
+    body: { en: overgripEn, th: overgripTh },
+    faq: {
+      en: [
+        {
+          question: "Which padel overgrip is best for Bangkok's humidity?",
+          answer:
+            "For Bangkok's 70-85% humidity, dry-feel overgrips outperform pure-tacky ones. The most popular choices locally are the 4ON Premium Comfort (3-pack ~427 THB at Padel Racket Thailand), Bullpadel Gel Dry, and Wilson Pro Overgrip. Tacky overgrips like Adidas Tacky Feeling work well only in air-conditioned indoor courts.",
+        },
+        {
+          question: "How often should I change my padel overgrip in Bangkok?",
+          answer:
+            "Plan to change every 3 to 5 sessions from March to October (hot and rainy seasons), and every 5 to 8 sessions in the cool season from November to February. Sweat-soaked overgrips lose grip fast and can rot the base grip beneath if left in a humid bag.",
+        },
+        {
+          question: "How much does a padel overgrip cost in Thailand?",
+          answer:
+            "A 3-pack of mainstream padel overgrips in Thailand costs 350 to 600 THB depending on brand. Confirmed mid-2026 prices include the 4ON Premium Comfort at 427 THB at Padel Racket Thailand. Single overgrips are rarely sold; 3-packs are the standard unit.",
+        },
+        {
+          question: "Where can I buy padel overgrips in Bangkok?",
+          answer:
+            "The most reliable Bangkok options are Padel Racket Thailand (padelracket.in.th), No Drama Padel's on-site shop in Ratchada, Bullpadel Asia, Wilson Thailand (th.wilson.com, free shipping over 4,000 THB), Decathlon Thailand, and Lazada or Shopee for imported HEAD Hydrosorb and Tourna Grip.",
+        },
+        {
+          question: "Do I need an overgrip if my padel racket already has a grip?",
+          answer:
+            "Yes. The factory base grip is designed to be paired with a replaceable overgrip; in Bangkok's humidity it becomes slick within 20 minutes of play without one. The overgrip protects the base grip from sweat damage and is much cheaper to replace.",
+        },
+        {
+          question: "What's the difference between a dry and a tacky overgrip?",
+          answer:
+            "Dry overgrips have a perforated or microfibre surface that wicks sweat away from the handle, staying grippy in humid conditions. Tacky overgrips feel grippy when dry but turn slippery once they absorb sweat. For Bangkok's climate, dry-feel is the safer default; tacky only works on cool-season mornings or in strongly air-conditioned indoor courts.",
+        },
+      ],
+      th: [
+        {
+          question: "โอเวอร์กริปพาเดิลตัวไหนเหมาะกับอากาศชื้นกรุงเทพ?",
+          answer:
+            "ในกรุงเทพที่ความชื้น 70-85% โอเวอร์กริปแบบ Dry-feel ดีกว่าแบบเหนียวล้วน ๆ ตัวที่ยอดนิยมในไทยคือ 4ON Premium Comfort (แพ็ค 3 ~427 บาทที่ Padel Racket Thailand), Bullpadel Gel Dry และ Wilson Pro กริปเหนียวอย่าง Adidas Tacky Feeling เหมาะกับคอร์ทแอร์เท่านั้น",
+        },
+        {
+          question: "ควรเปลี่ยนโอเวอร์กริปในกรุงเทพบ่อยแค่ไหน?",
+          answer:
+            "ช่วง มี.ค.–ต.ค. (ฤดูร้อนและฝน) ควรเปลี่ยนทุก 3–5 ครั้งที่ตี ส่วนช่วงหนาว พ.ย.–ก.พ. ทุก 5–8 ครั้งพอ โอเวอร์กริปที่อิ่มเหงื่อทำให้เกาะลื่น และอาจทำให้กริปเดิมที่อยู่ข้างใต้เน่าถ้าทิ้งในกระเป๋าชื้น",
+        },
+        {
+          question: "โอเวอร์กริปพาเดิลในไทยราคาเท่าไหร่?",
+          answer:
+            "แพ็ค 3 ของแบรนด์หลักในไทยราคา 350–600 บาทแล้วแต่ยี่ห้อ ราคากลางปี 2026 ที่ยืนยันแล้ว เช่น 4ON Premium Comfort 427 บาทที่ Padel Racket Thailand ปกติขายเป็นแพ็ค 3 ไม่ค่อยมีขายเป็นชิ้น",
+        },
+        {
+          question: "ซื้อโอเวอร์กริปพาเดิลในกรุงเทพได้ที่ไหน?",
+          answer:
+            "ที่เชื่อถือได้ในกรุงเทพคือ Padel Racket Thailand (padelracket.in.th), ร้านในคลับ No Drama Padel (รัชดา), Bullpadel Asia, Wilson Thailand (th.wilson.com ส่งฟรีเมื่อยอดเกิน 4,000 บาท), Decathlon Thailand และ Lazada / Shopee สำหรับ HEAD Hydrosorb และ Tourna Grip นำเข้า",
+        },
+        {
+          question: "ต้องใช้โอเวอร์กริปไหม ในเมื่อไม้พาเดิลมีกริปอยู่แล้ว?",
+          answer:
+            "ต้องใช้ กริปเดิมจากโรงงานออกแบบมาให้พันโอเวอร์กริปทับ ในอากาศชื้นกรุงเทพจะลื่นภายใน 20 นาทีถ้าไม่พัน โอเวอร์กริปยังปกป้องกริปเดิมจากเหงื่อ และเปลี่ยนถูกกว่ามาก",
+        },
+        {
+          question: "Dry กับ Tacky ต่างกันยังไง?",
+          answer:
+            "Dry มีพื้นผิวเจาะรูหรือ Microfibre ดึงเหงื่อออกจากด้าม เกาะดีในอากาศชื้น Tacky เกาะดีตอนแห้ง แต่ลื่นเมื่ออิ่มเหงื่อ สำหรับกรุงเทพ Dry-feel ปลอดภัยกว่า Tacky เหมาะแค่เช้าฤดูหนาวหรือคอร์ทแอร์เย็น",
+        },
+      ],
+    },
+  },
+  {
+    slug: "padel-balls-thailand-price-guide",
+    date: "2026-05-22",
+    readMinutes: 6,
+    title: {
+      en: "Padel Balls in Thailand: 2026 Price Guide (Head, Bullpadel, Wilson)",
+      th: "ลูกพาเดิลในประเทศไทย: ไกด์ราคาปี 2026 (Head, Bullpadel, Wilson)",
+    },
+    excerpt: {
+      en: "Head Padel Pro S+ at 300 THB, Bullpadel Premium Pro, Wilson X3 — current tube prices in Thailand and where to buy without the import markup.",
+      th: "Head Padel Pro S+ 300 บาท Bullpadel Premium Pro Wilson X3 — ราคาหลอดล่าสุดในไทย และจุดซื้อแบบไม่เสียค่านำเข้า",
+    },
+    keywords: {
+      en: [
+        "padel balls Bangkok",
+        "padel balls Thailand price",
+        "Head Padel Pro S Thailand",
+        "Bullpadel Premium Pro Bangkok",
+        "buy padel balls Thailand",
+        "No Drama Padel balls",
+        "Wilson X3 padel Thailand",
+      ],
+      th: [
+        "ลูกพาเดิล ราคา ไทย",
+        "ลูกพาเดิล กรุงเทพ",
+        "Head Padel Pro S ไทย",
+        "Bullpadel Premium Pro กรุงเทพ",
+        "ซื้อลูกพาเดิล",
+        "ลูก No Drama Padel",
+        "Wilson X3 พาเดิล",
+      ],
+    },
+    body: { en: ballsEn, th: ballsTh },
+    faq: {
+      en: [
+        {
+          question: "How much does a tube of padel balls cost in Thailand?",
+          answer:
+            "Mainstream padel ball tubes in Thailand cost 200 to 350 THB. Verified mid-2026 prices include Head Padel Pro S+ at 300 THB per tube at No Drama Padel. Decathlon's Artengo PB 990 starts at around 199 THB; Bullpadel Premium Pro tubes run 320 to 380 THB.",
+        },
+        {
+          question: "Which padel balls do Bangkok clubs use?",
+          answer:
+            "Most Bangkok clubs use Head Padel Pro S+ for league nights and weekly Americanos. Sanctioned tournaments including the Cupra FIP Tour Thailand events (Samui and Phangan, May 2026) use Bullpadel Premium Pro. Babolat Tour and Wilson X3 also appear at some clubs and shops.",
+        },
+        {
+          question: "Where can I buy padel balls in Bangkok?",
+          answer:
+            "Reliable Bangkok sources include No Drama Padel (Ratchada), Padel Racket Thailand (padelracket.in.th), The Padel Co. (On Nut), Bullpadel Asia, Wilson Thailand, Decathlon Thailand and Lazada or Shopee for branded imports. Always check seller ratings on marketplace listings to avoid counterfeits.",
+        },
+        {
+          question: "How long does a tube of padel balls last?",
+          answer:
+            "A fresh tube of three balls is competition-grade for about 3 to 4 hours of high-intensity play. After that the bounce drops noticeably and the felt mats. Many Bangkok players keep a 'drills tube' of older balls for warm-ups and a fresh tube for matches.",
+        },
+        {
+          question: "Are padel balls and tennis balls the same?",
+          answer:
+            "No. Padel balls are slightly smaller in diameter and lower in internal pressure than tennis balls, which makes them slower and easier to control off the back glass. Tennis balls will not behave correctly on a padel court and are not used in any Bangkok club.",
+        },
+        {
+          question: "Do I need to buy my own padel balls in Bangkok?",
+          answer:
+            "Not at first. Americano sessions at Bangkok clubs include balls in the entry fee (typically 400 to 800 THB). You only need to buy your own tube once you start booking private courts. A tube of three balls costs 250 to 350 THB and is usually split four ways.",
+        },
+      ],
+      th: [
+        {
+          question: "ลูกพาเดิล 1 หลอดราคาเท่าไหร่ในไทย?",
+          answer:
+            "ลูกพาเดิลแบรนด์หลักในไทยราคาหลอดละ 200–350 บาท ราคากลางปี 2026 ที่ยืนยันแล้ว เช่น Head Padel Pro S+ 300 บาทที่ No Drama Padel ส่วน Decathlon Artengo PB 990 เริ่มประมาณ 199 บาท Bullpadel Premium Pro หลอดละ 320–380 บาท",
+        },
+        {
+          question: "คลับในกรุงเทพใช้ลูกอะไร?",
+          answer:
+            "คลับส่วนใหญ่ใช้ Head Padel Pro S+ สำหรับลีกประจำสัปดาห์และ Americano ส่วนทัวร์นาเมนต์ทางการรวม Cupra FIP Tour Thailand (สมุยและพะงัน พฤษภาคม 2026) ใช้ Bullpadel Premium Pro ส่วน Babolat Tour และ Wilson X3 ก็เจอที่บางคลับและร้าน",
+        },
+        {
+          question: "ซื้อลูกพาเดิลในกรุงเทพได้ที่ไหน?",
+          answer:
+            "ที่น่าเชื่อถือคือ No Drama Padel (รัชดา), Padel Racket Thailand (padelracket.in.th), The Padel Co. (อ่อนนุช), Bullpadel Asia, Wilson Thailand, Decathlon Thailand และ Lazada / Shopee สำหรับของแบรนด์นำเข้า เช็คเรตติ้งร้านบนมาร์เก็ตเพลสเพื่อเลี่ยงของปลอม",
+        },
+        {
+          question: "ลูกพาเดิล 1 หลอดใช้ได้กี่ชั่วโมง?",
+          answer:
+            "หลอดใหม่ 3 ลูกเป็นเกรดการแข่ง ประมาณ 3–4 ชั่วโมงของการตีเข้ม ๆ หลังจากนั้นการกระดอนตกชัดและสักหลาดเริ่มเรียบ ผู้เล่นกรุงเทพจำนวนมากเก็บ 'หลอด Drill' ของลูกเก่าไว้วอร์มอัพ และเปิดหลอดใหม่เฉพาะแมตช์",
+        },
+        {
+          question: "ลูกพาเดิลกับลูกเทนนิสเหมือนกันไหม?",
+          answer:
+            "ไม่เหมือน ลูกพาเดิลเส้นผ่านศูนย์กลางเล็กกว่าและแรงดันต่ำกว่าลูกเทนนิสเล็กน้อย ทำให้ช้ากว่าและคุมง่ายกว่าหลังกระจกหลัง ลูกเทนนิสจะทำตัวไม่ถูกบนคอร์ทพาเดิลและไม่มีคลับใดในกรุงเทพใช้",
+        },
+        {
+          question: "ต้องซื้อลูกพาเดิลเองไหมในกรุงเทพ?",
+          answer:
+            "ตอนเริ่มไม่ต้อง Americano ในคลับกรุงเทพรวมลูกในค่าสมัครแล้ว (400–800 บาท) ค่อยซื้อเองตอนเริ่มจองคอร์ทส่วนตัว หลอดละ 3 ลูก ราคา 250–350 บาท หาร 4 คน",
+        },
+      ],
+    },
+  },
+  {
+    slug: "fip-tour-thailand-2026-guide",
+    date: "2026-05-21",
+    readMinutes: 8,
+    title: {
+      en: "Cupra FIP Tour Thailand 2026: Samui, Phangan & How Bangkok Players Can Enter",
+      th: "Cupra FIP Tour Thailand 2026: สมุย พะงัน และวิธีลงแข่งสำหรับผู้เล่นกรุงเทพ",
+    },
+    excerpt: {
+      en: "Two Cupra FIP Bronze events landed in Thailand in May 2026. Here's the full picture: who won Samui, the Phangan stop, how rankings work, and how a Bangkok player gets in.",
+      th: "Cupra FIP Bronze 2 รายการจัดที่ไทยในเดือนพฤษภาคม 2026 ทั้งสมุยและพะงัน สรุปผล แชมป์ ระบบแรงค์ และวิธีที่ผู้เล่นกรุงเทพลงแข่งได้",
+    },
+    keywords: {
+      en: [
+        "Cupra FIP Tour Thailand 2026",
+        "FIP Bronze Samui",
+        "FIP Bronze Phangan",
+        "padel tournament Thailand",
+        "padel ranking system",
+        "Premier Padel Thailand",
+        "Thai Padel Series 2026",
+        "FIP padel tour Asia",
+      ],
+      th: [
+        "Cupra FIP Tour Thailand 2026",
+        "FIP Bronze สมุย",
+        "FIP Bronze พะงัน",
+        "ทัวร์นาเมนต์พาเดิล ไทย",
+        "ระบบแรงค์พาเดิล",
+        "Premier Padel ไทย",
+        "Thai Padel Series 2026",
+      ],
+    },
+    body: { en: fipTourEn, th: fipTourTh },
+    faq: {
+      en: [
+        {
+          question: "Did Thailand host any padel tournaments in 2026?",
+          answer:
+            "Yes. Two Cupra FIP Bronze events were held in Thailand in May 2026: FIP Bronze Samui (6 to 10 May 2026) and FIP Bronze Phangan (14 to 17 May 2026). Both are part of the Cupra FIP Tour, the official development tour beneath Premier Padel.",
+        },
+        {
+          question: "Is Premier Padel coming to Thailand in 2026?",
+          answer:
+            "No. The 2026 Premier Padel calendar lists 26 events across 18 countries, but no Thai stop is confirmed. The closest Premier Padel events to Bangkok in recent seasons have been held in Qatar and the UAE. Thai players have only the Cupra FIP Tour route to international ranking points domestically in 2026.",
+        },
+        {
+          question: "How does the FIP padel ranking work?",
+          answer:
+            "The Federacion Internacional de Padel (FIP) ranks players globally based on points earned at Cupra FIP Tour events. The tour has three tiers: Bronze (smallest events), Silver, and Gold. Points from all three feed the global FIP ranking, which is used to seed entry into Premier Padel qualifying rounds.",
+        },
+        {
+          question: "Can a Bangkok amateur enter the Cupra FIP Tour?",
+          answer:
+            "Yes, but with a preparation step. Bangkok amateurs should first register with the Thailand Padel Association (TPA), build a Rankedin profile, and play Thai Padel Series events to accumulate domestic points. Cupra FIP Bronze events are open-entry but seeded by ranking, so unseeded pairs play qualifying rounds the week before the main draw.",
+        },
+        {
+          question: "How much does it cost to enter a FIP Bronze event in Thailand?",
+          answer:
+            "Entry fees for a Cupra FIP Bronze event are typically modest (often under 5,000 THB per pair), but travel, accommodation and prep matches push the realistic budget to 25,000 to 40,000 THB per player for an event held on Samui or Phangan. Spectator access is much cheaper, often free or under 500 THB.",
+        },
+        {
+          question: "What other padel tournaments can Bangkok players enter?",
+          answer:
+            "Beyond the Cupra FIP Tour, Bangkok players can enter the Thai Padel Series (TPS) — a domestic circuit with nine events in 2026 including stops in Hua Hin, Chiang Mai, Koh Samui, Bangkok and the Bangkok Finals in December. Regional Cupra FIP events in Kuala Lumpur, Selangor and Indonesia are also reachable from Bangkok by a short flight.",
+        },
+      ],
+      th: [
+        {
+          question: "ปี 2026 ประเทศไทยจัดทัวร์นาเมนต์พาเดิลไหม?",
+          answer:
+            "มี รายการ Cupra FIP Bronze 2 รายการในเดือนพฤษภาคม 2026 คือ FIP Bronze สมุย (6–10 พ.ค. 2026) และ FIP Bronze พะงัน (14–17 พ.ค. 2026) ทั้งคู่อยู่ในทัวร์ Cupra FIP Tour ซึ่งเป็นทัวร์พัฒนาทางการอยู่ใต้ Premier Padel",
+        },
+        {
+          question: "Premier Padel จะมาไทยในปี 2026 ไหม?",
+          answer:
+            "ไม่ ปฏิทิน Premier Padel ปี 2026 มี 26 รายการใน 18 ประเทศ แต่ไม่มีไทย รายการ Premier Padel ใกล้กรุงเทพในรอบหลายปีจัดที่กาตาร์และยูเออี ผู้เล่นไทยมีเส้นทาง Cupra FIP Tour เท่านั้นในการเก็บคะแนนระดับโลกแบบจัดในประเทศปี 2026",
+        },
+        {
+          question: "ระบบแรงค์ FIP พาเดิลทำงานอย่างไร?",
+          answer:
+            "สหพันธ์พาเดิลนานาชาติ (FIP) จัดอันดับผู้เล่นทั่วโลกตามคะแนนจากรายการ Cupra FIP Tour ทัวร์มี 3 ระดับ: Bronze (เล็กสุด) Silver Gold คะแนนจากทั้ง 3 ระดับเข้าแรงค์ FIP โลก ซึ่งใช้คัดเข้ารอบ qualifying ของ Premier Padel",
+        },
+        {
+          question: "ผู้เล่นมือสมัครเล่นในกรุงเทพลง Cupra FIP Tour ได้ไหม?",
+          answer:
+            "ได้ แต่ต้องเตรียมตัว เริ่มจากสมัครกับสมาคมพาเดิลแห่งประเทศไทย (TPA) สร้างโปรไฟล์ Rankedin และลงรายการ Thai Padel Series เพื่อเก็บคะแนนในประเทศ Cupra FIP Bronze เปิดรับสมัครแต่จัดสายตามแรงค์ คู่ที่ไม่มีคะแนนต้องเล่นรอบ qualifying ก่อน Main Draw 1 สัปดาห์",
+        },
+        {
+          question: "ค่าสมัคร FIP Bronze ในไทยเท่าไหร่?",
+          answer:
+            "ค่าสมัคร Cupra FIP Bronze ปกติไม่แพง (มักไม่เกิน 5,000 บาท/คู่) แต่ค่าเดินทาง ที่พัก และซ้อมก่อนแข่งทำให้งบประมาณจริง 25,000–40,000 บาท/คน สำหรับรายการที่สมุยหรือพะงัน บัตรเข้าชมถูกกว่ามาก มักฟรีหรือไม่เกิน 500 บาท",
+        },
+        {
+          question: "ผู้เล่นกรุงเทพลงทัวร์นาเมนต์อะไรได้อีก?",
+          answer:
+            "นอกจาก Cupra FIP Tour ผู้เล่นกรุงเทพลง Thai Padel Series (TPS) ได้ — ทัวร์ในประเทศ 9 รายการปี 2026 รวมหัวหิน เชียงใหม่ เกาะสมุย กรุงเทพ และไฟนอลกรุงเทพในธันวาคม รายการ Cupra FIP ในภูมิภาคที่กัวลาลัมเปอร์ Selangor และอินโดนีเซียก็ไปได้ บินจากกรุงเทพไม่ไกล",
+        },
+      ],
+    },
+  },
+  {
+    slug: "americano-vs-mexicano-padel-bangkok",
+    date: "2026-05-20",
+    readMinutes: 7,
+    title: {
+      en: "Americano vs Mexicano Padel: How Bangkok Clubs Run Both (2026)",
+      th: "Americano vs Mexicano พาเดิล: คลับกรุงเทพจัดยังไง (ปี 2026)",
+    },
+    excerpt: {
+      en: "Two rotating-doubles formats, one key difference. How Americano and Mexicano scoring works, what each costs in Bangkok, and where to play this week.",
+      th: "รูปแบบหมุนคู่ 2 แบบที่ฟังคล้าย แต่ต่างกันเป็นจุดเปลี่ยน วิธีคิดคะแนน Americano และ Mexicano ราคาในกรุงเทพ และที่เล่นในสัปดาห์นี้",
+    },
+    keywords: {
+      en: [
+        "Americano padel Bangkok",
+        "Mexicano padel format",
+        "padel tournament format",
+        "Americano padel rules",
+        "Mexicano vs Americano",
+        "padel social Bangkok",
+        "Bangkok padel league",
+        "padel scoring rules",
+      ],
+      th: [
+        "Americano พาเดิล กรุงเทพ",
+        "Mexicano พาเดิล",
+        "รูปแบบ ทัวร์นาเมนต์ พาเดิล",
+        "กติกา Americano",
+        "Mexicano vs Americano",
+        "พาเดิลสังคม กรุงเทพ",
+        "ลีกพาเดิล กรุงเทพ",
+      ],
+    },
+    body: { en: americanoEn, th: americanoTh },
+    faq: {
+      en: [
+        {
+          question: "What's the difference between Americano and Mexicano in padel?",
+          answer:
+            "Both formats rotate partners every match and score individually. The difference is the pairing logic. Americano pairs partners randomly or sequentially — the mix stays level all night. Mexicano re-pairs players by current score after each round, so top players face top players and the matches get tighter as the night goes on.",
+        },
+        {
+          question: "How does Americano scoring work in Bangkok?",
+          answer:
+            "An Americano runs as a series of fixed-length matches (typically 16, 24, or 32 balls per match). Each ball won is one point. Your partner changes every round, but your personal score accumulates across all matches. The player with the highest individual score at the end wins.",
+        },
+        {
+          question: "How much does an Americano cost in Bangkok?",
+          answer:
+            "A typical Bangkok Americano costs 400 to 800 THB per player. The fee covers about two hours of court time, fresh balls (usually Head Padel Pro S+), a small prize for the top scorer and sometimes a drink voucher. It's the best value play in Bangkok padel for the variety and structure you get.",
+        },
+        {
+          question: "Where can I play an Americano in Bangkok?",
+          answer:
+            "Almost every Bangkok padel club runs at least one weekly Americano. The most active calendars are at Pad Thai Padel (Sukhumvit 36, near Thonglor BTS), Kross Padel On Nut, Padel Asia (Ratchada 18), Bel Club 22 (Phetchaburi Rd), Bangkok Padel (Ambassador Hotel rooftop), No Drama Padel and The Padel Co. (On Nut). Most book out 3 to 5 days ahead in peak season.",
+        },
+        {
+          question: "Is Mexicano common in Bangkok?",
+          answer:
+            "Mexicano is rarer than Americano in Bangkok and tends to be invited or level-gated for 3.0+ players. Padel Asia and Pad Thai Padel run periodic Mexicano nights. The fastest way to find one is to post your level in the Bangkok Padel Community Facebook group — organisers regularly recruit through it.",
+        },
+        {
+          question: "Can a beginner play in a Bangkok Americano?",
+          answer:
+            "Yes — Americano is designed for mixed levels and most Bangkok clubs welcome beginners. Look for sessions labelled 'all levels' or 'social' rather than 'league' or 'advanced.' Bring water, a non-marking court shoe and a wristband; rackets and balls are usually provided, with racket rental at about 100 THB if you don't own one yet.",
+        },
+      ],
+      th: [
+        {
+          question: "Americano กับ Mexicano ต่างกันยังไง?",
+          answer:
+            "ทั้งคู่หมุนคู่ทุกแมตช์และคิดคะแนนรายบุคคล ต่างกันที่วิธีจับคู่ Americano จับสุ่มหรือตามลำดับ ผสมระดับตลอดคืน Mexicano จับคู่ใหม่ตามคะแนนทุกรอบ ทำให้คนเก่งเจอคนเก่ง แมตช์ตึงขึ้นเรื่อย ๆ ตอนท้ายคืน",
+        },
+        {
+          question: "คะแนน Americano คิดยังไงในกรุงเทพ?",
+          answer:
+            "Americano แข่งเป็นแมตช์ความยาวคงที่ (ปกติ 16, 24 หรือ 32 ลูก/แมตช์) แต่ละลูกที่ชนะ = 1 คะแนน คู่เปลี่ยนทุกรอบ แต่คะแนนตัวเองสะสมต่อทุกแมตช์ คนคะแนนสูงสุดเมื่อจบทุกแมตช์ = ผู้ชนะ",
+        },
+        {
+          question: "Americano ในกรุงเทพราคาเท่าไหร่?",
+          answer:
+            "Americano ทั่วไปในกรุงเทพ 400–800 บาท/คน รวมคอร์ทประมาณ 2 ชั่วโมง ลูกใหม่ (มักเป็น Head Padel Pro S+) รางวัลเล็ก ๆ สำหรับคะแนนสูงสุด บางครั้งมี voucher เครื่องดื่ม คุ้มที่สุดในแวดวงพาเดิลกรุงเทพเมื่อเทียบกับความหลากหลายและโครงสร้างที่ได้",
+        },
+        {
+          question: "ตี Americano ในกรุงเทพได้ที่ไหน?",
+          answer:
+            "เกือบทุกคลับในกรุงเทพมี Americano อย่างน้อยสัปดาห์ละ 1 ครั้ง ปฏิทินคึกสุดคือ Pad Thai Padel (สุขุมวิท 36 ใกล้ BTS ทองหล่อ), Kross Padel On Nut, Padel Asia (รัชดา 18), Bel Club 22 (เพชรบุรี), Bangkok Padel (รูฟท็อป Ambassador), No Drama Padel และ The Padel Co. (อ่อนนุช) ส่วนใหญ่เต็มก่อน 3–5 วันในช่วง Peak",
+        },
+        {
+          question: "Mexicano พบบ่อยในกรุงเทพไหม?",
+          answer:
+            "Mexicano พบน้อยกว่า Americano ในกรุงเทพ และมักเป็น invite หรือคัดระดับ 3.0+ Padel Asia และ Pad Thai Padel จัด Mexicano เป็นช่วง ๆ วิธีหาเร็วสุดคือโพสต์ระดับในกลุ่ม Bangkok Padel Community ผู้จัดมักหาผู้เล่นจากที่นั่น",
+        },
+        {
+          question: "มือใหม่ตี Americano ในกรุงเทพได้ไหม?",
+          answer:
+            "ได้ Americano ออกแบบมาสำหรับระดับผสม คลับส่วนใหญ่ในกรุงเทพรับมือใหม่ มองหารอบที่เขียนว่า 'all levels' หรือ 'social' แทน 'league' หรือ 'advanced' เตรียมน้ำ รองเท้าพื้นไม่ทิ้งคราบ และริสต์แบนด์ ไม้และลูกส่วนใหญ่มีให้ เช่าไม้ที่คลับ ~100 บาทถ้ายังไม่มีของตัวเอง",
+        },
+      ],
+    },
+  },
   {
     slug: "play-padel-bangkok",
     date: "2026-05-19",
