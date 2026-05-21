@@ -6,12 +6,14 @@ type Dict = {
     blog: { title: string; description: string };
     coaching: { title: string; description: string };
     courts: { title: string; description: string };
+    tournaments: { title: string; description: string };
   };
   nav: {
     home: string;
     blog: string;
     coaching: string;
     courts: string;
+    tournaments: string;
     switchLanguage: string;
   };
   home: {
@@ -67,6 +69,25 @@ type Dict = {
     relatedClubs: string;
     relatedCoaching: string;
   };
+  tournaments: {
+    eyebrow: string;
+    h1: string;
+    lead: string;
+    sourceNote: string;
+    updatedLabel: string;
+    emptyTitle: string;
+    emptyBody: string;
+    spotsLabel: (open: number, total: number) => string;
+    soldOut: string;
+    registerCta: string;
+    levelLabel: string;
+    genderLabel: string;
+    monthHeading: (month: string, count: number) => string;
+    timezoneNote: string;
+    ctaTitle: string;
+    ctaBody: string;
+    ctaButton: string;
+  };
 };
 
 const en: Dict = {
@@ -91,12 +112,18 @@ const en: Dict = {
       description:
         "The best padel courts and clubs in Bangkok, ranked by the Bangkok Padel Community. Prices, booking apps, BTS access and what each venue is known for.",
     },
+    tournaments: {
+      title: "Bangkok Padel Tournaments & Americano Events (2026)",
+      description:
+        "Upcoming padel tournaments, Americanos and Mexicanos at Bangkok clubs — dates, prices, levels and direct sign-up links. Live feed via Playtomic.",
+    },
   },
   nav: {
     home: "Home",
     blog: "Blog",
     coaching: "Coaching",
     courts: "Courts",
+    tournaments: "Tournaments",
     switchLanguage: "Switch language",
   },
   home: {
@@ -157,6 +184,29 @@ const en: Dict = {
     relatedClubs: "Best padel clubs guide",
     relatedCoaching: "Coaching",
   },
+  tournaments: {
+    eyebrow: "Live Tournament Feed",
+    h1: "Bangkok Padel Tournaments & Americano Events",
+    lead: "Upcoming tournaments, Americanos and Mexicanos at Bangkok clubs on Playtomic. Dates, prices, levels and direct sign-up links — updated from the live API.",
+    sourceNote:
+      "Source: Playtomic public feed. Pad Thai Padel, Bangkok Padel (Ambassador Hotel) and a few others post their events on their own apps or in the Bangkok Padel Community Facebook group — check there for events not listed here.",
+    updatedLabel: "Updated",
+    emptyTitle: "No upcoming tournaments listed",
+    emptyBody:
+      "No Playtomic-listed tournaments in the next 12 months at the moment. Check the Bangkok Padel Community Facebook group for Americano nights and weekly mixers run by other clubs.",
+    spotsLabel: (open, total) => `${open} of ${total} spots open`,
+    soldOut: "Sold out",
+    registerCta: "Register on Playtomic",
+    levelLabel: "Level",
+    genderLabel: "Gender",
+    monthHeading: (month, count) =>
+      `${month} — ${count} event${count === 1 ? "" : "s"}`,
+    timezoneNote: "All times Bangkok local (ICT, UTC+7).",
+    ctaTitle: "Hosting a Bangkok padel tournament?",
+    ctaBody:
+      "Post it in the Bangkok Padel Community Facebook group and we'll surface it here. Playtomic-listed events appear automatically once your club is on the platform.",
+    ctaButton: "Share your tournament",
+  },
 };
 
 const th: Dict = {
@@ -181,12 +231,18 @@ const th: Dict = {
       description:
         "คอร์ทและคลับพาเดิลที่ดีที่สุดในกรุงเทพ จัดอันดับโดยคอมมูนิตี้ Bangkok Padel Community ครบทั้งราคา แอปจอง การเดินทาง BTS และจุดเด่นของแต่ละคลับ",
     },
+    tournaments: {
+      title: "ทัวร์นาเมนต์พาเดิลกรุงเทพ & Americano (2026)",
+      description:
+        "ทัวร์นาเมนต์ Americano และ Mexicano ที่จะถึงในคลับกรุงเทพ — วันที่ ราคา ระดับ และลิงก์สมัครตรง อัปเดตจาก Playtomic ทุกครั้ง",
+    },
   },
   nav: {
     home: "หน้าแรก",
     blog: "บล็อก",
     coaching: "โค้ช",
     courts: "คอร์ท",
+    tournaments: "ทัวร์นาเมนต์",
     switchLanguage: "เปลี่ยนภาษา",
   },
   home: {
@@ -246,6 +302,28 @@ const th: Dict = {
     relatedPlay: "ตีพาเดิลในกรุงเทพ",
     relatedClubs: "ไกด์คลับพาเดิล",
     relatedCoaching: "โค้ช",
+  },
+  tournaments: {
+    eyebrow: "ฟีดทัวร์นาเมนต์สด",
+    h1: "ทัวร์นาเมนต์พาเดิลกรุงเทพ & Americano",
+    lead: "ทัวร์นาเมนต์ Americano และ Mexicano ที่จะถึงในคลับกรุงเทพบน Playtomic ครบทั้งวันที่ ราคา ระดับ และลิงก์สมัครตรง — ดึงสดจาก API",
+    sourceNote:
+      "ที่มา: ฟีดสาธารณะของ Playtomic Pad Thai Padel, Bangkok Padel (Ambassador Hotel) และอีกหลายคลับ โพสต์อีเวนต์ในแอปของตัวเองหรือในกลุ่ม Facebook Bangkok Padel Community เช็คที่นั่นถ้าไม่เจอที่นี่",
+    updatedLabel: "อัปเดตล่าสุด",
+    emptyTitle: "ยังไม่มีทัวร์นาเมนต์ที่จะถึง",
+    emptyBody:
+      "ตอนนี้ยังไม่มีทัวร์นาเมนต์ใน Playtomic ใน 12 เดือนข้างหน้า เช็คกลุ่ม Facebook Bangkok Padel Community สำหรับ Americano คืนต่าง ๆ ของคลับอื่น",
+    spotsLabel: (open, total) => `เหลือ ${open} จาก ${total} ที่`,
+    soldOut: "เต็มแล้ว",
+    registerCta: "สมัครบน Playtomic",
+    levelLabel: "ระดับ",
+    genderLabel: "เพศ",
+    monthHeading: (month, count) => `${month} — ${count} อีเวนต์`,
+    timezoneNote: "เวลาทั้งหมดเป็นเวลาในกรุงเทพ (ICT, UTC+7)",
+    ctaTitle: "กำลังจัดทัวร์นาเมนต์พาเดิลในกรุงเทพ?",
+    ctaBody:
+      "โพสต์ในกลุ่ม Facebook Bangkok Padel Community เราจะนำมาลงที่นี่ อีเวนต์ที่อยู่ใน Playtomic จะปรากฏอัตโนมัติเมื่อคลับของคุณเข้าระบบ",
+    ctaButton: "แชร์ทัวร์นาเมนต์ของคุณ",
   },
 };
 

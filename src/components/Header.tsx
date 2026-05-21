@@ -8,6 +8,7 @@ export default function Header({ locale }: { locale: Locale }) {
   const nav = [
     { href: localePath(locale, "/"), label: d.nav.home },
     { href: localePath(locale, "/courts"), label: d.nav.courts },
+    { href: localePath(locale, "/tournaments"), label: d.nav.tournaments },
     { href: localePath(locale, "/blog"), label: d.nav.blog },
     { href: localePath(locale, "/coaching"), label: d.nav.coaching },
   ];
